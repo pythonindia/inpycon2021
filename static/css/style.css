@@ -528,6 +528,39 @@ body.enabled-focus a:focus > .yellow-white{
   border-bottom: 3px dashed #575757;
 }
 
+.page {
+  background: #21292e url("../images/b1.png") no-repeat;
+  background-position: top 155px right;
+  color: #b7b7b7;
+}
+
+.page h1, .page h2 {
+  margin: 1.5rem auto 0.75rem;
+}
+
+.page h1 {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 700;
+  font-size: 50px;
+  color: #FFF;
+}
+
+.page h2 {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 700;
+  font-size: 30px;
+  color: #FFF;
+}
+
+.page h4 {
+  color: #fbc343;
+  margin-top: 0.75rem;
+}
+
+.page ul {
+  padding-left: 3rem;
+}
+
 .about-page {
   background: #21292e url("../images/b1.png") no-repeat;
   background-position: top 155px right;
