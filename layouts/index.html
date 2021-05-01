@@ -1,14 +1,15 @@
 
 {{ define "main"}}
     
-    {{ partial "sections/hero.html" . }}
+    {{ partial "sections/hero.html" (dict "hero_content" .Site.Data.hero) }}
 
-    {{ partial "sections/about.html" . }}
+    {{ partial "sections/about.html" (dict "hero_content" .Site.Data.hero) }}
     
     <!-- keynote speakers -->
     {{ partial "sections/speakers.html" . }}
 
-    {{ partial "sections/ticket.html" . }}
+    <!-- Tickets-->
+    {{ partial "sections/ticket.html" (dict "tickets" .Site.Data.tickets) }}
     
     {{ partial "sections/schedule.html" . }}
 
