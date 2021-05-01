@@ -4,9 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" itemprop="keywords" content="" />
-    <meta name="description" itemprop="description" content="">
-    <meta name="robots" content="index, follow">
+    {{ partial "meta.html" . }}
     <title>{{ block "title" . }} {{ .Site.Title }} {{ end  }}</title>
     <link rel="icon" type="image/png" href="{{ "images/favicon.png" | absURL }}">
     <link href="{{ "css/style.css" | absURL }}" rel="stylesheet">
@@ -17,8 +15,12 @@
 
 <body class="enabled-focus">
 
+  {{ partial "header.html" }}
+
   {{ block "main" . }}
   {{ end }}
+
+  {{ partial "footer.html" }}
 
   <script src="{{ "js/font-awesome.js" | absURL }}"></script>
   <script src="{{ "js/aos.js" | absURL }}"></script>
