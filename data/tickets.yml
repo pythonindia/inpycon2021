@@ -1,0 +1,36 @@
+- 
+  name: Early Bird Ticket
+  details: Sale ends by 22 August, 2020 11:59 PM (Asia/Kolkata) OR completion of 300 tickets
+  price: 149
+  category: conference
+  link: ""
+
+- 
+  name: Regular Ticket
+  details: Sale ends by 15 September, 2020 11:59 PM (Asia/Kolkata) OR completion of 2000 tickets
+  price: 199
+  category: conference
+  link: ""
+
+- 
+  name: Late Bird Ticket
+  details: Sale ends by 30 September, 2020 10:00 PM (Asia/Kolkata) OR completion of 300 tickets
+  price: 499
+  category: conference
+  link: ""
+
+# There can be only 1 workshop ticket item right now
+-
+  name: Workshop Ticket
+  details: Sale ends by 30 September, 2020 10:00 PM (Asia/Kolkata) OR completion of 300 tickets
+  price: 399
+  category: workshop
+  link: ""
+
+# There can be only 1 devsprint ticket item right now
+-
+  name: Devsprint Ticket
+  details: Sale ends by 30 September, 2020 10:00 PM (Asia/Kolkata) OR completion of 300 tickets
+  price: Free
+  category: devsprint
+  link: ""
