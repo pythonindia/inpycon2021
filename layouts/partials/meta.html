@@ -1,3 +1,12 @@
-<meta name="keywords" itemprop="keywords" content="" />
-<meta name="description" itemprop="description" content="">
-<meta name="robots" content="index, follow">
+<meta name="description" content="{{ .Site.Params.description }}">
+<meta name="keywords" content="PyCon India, PyCon, Conference">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" value="summary"> 
+
+<!-- Open Graph Meta -->
+<meta property="og:title" content="{{ .Site.Title }}">
+<meta property="og:description" content="{{ .Site.Params.description }}">
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+<meta property="og:image" itemprop="image" content="{{ "images/full-logo" | absURL }}">
+<meta property="og:type" content="article">
