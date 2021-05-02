@@ -35,7 +35,8 @@
   <script src="{{ "js/bootstrap.popper.min.js" | absURL }}"></script>
   <script>
       AOS.init({
-          once: 'true'
+          once: 'true',
+          disable: window.matchMedia('(prefers-reduced-motion: reduce)').matches
       });
   </script>
   {{ block "page_script" . }}
