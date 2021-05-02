@@ -11,6 +11,14 @@
     <link href="{{ "css/font-awesome.min.css" | absURL }}" rel="stylesheet">
     <link href="{{ "css/aos.css" | absURL }}" rel="stylesheet">
     <link href="{{ "css/bootstrap.min.css" | absURL }}" rel="stylesheet">
+    <noscript>
+        <style type="text/css">
+            [data-aos] {
+                opacity: 1 !important;
+                transform: translate(0) scale(1) !important;
+            }
+        </style>
+    </noscript>
 </head>
 
 <body class="enabled-focus">
@@ -22,7 +30,6 @@
 
   {{ partial "footer.html" }}
 
-  <script src="{{ "js/font-awesome.js" | absURL }}"></script>
   <script src="{{ "js/aos.js" | absURL }}"></script>
   <script src="{{ "js/bootstrap.bundle.min.js" | absURL }}"></script>
   <script src="{{ "js/bootstrap.popper.min.js" | absURL }}"></script>
