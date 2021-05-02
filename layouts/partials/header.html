@@ -3,13 +3,13 @@
   <div class="container">
       <div class="row align-items-center">
           <div class="col-lg-3 col-md d-none d-md-block">
-              <a href="" class="logo"><img src="{{ "images/mainlogo1.png" | absURL }}" class="img-fluid" alt=""
+              <a href="{{ "/" | absURL }}" class="logo"><img src="{{ "images/mainlogo1.png" | absURL }}" class="img-fluid" alt=""
                       title="" style="width:100px;"></a>
           </div>
 
           <div class="col-lg-6 col-md-6 navbar navbar-expand-md navbar-light bg-light">
 
-              <a class="navbar-brand logo-mob d-block d-md-none" href="">
+              <a class="navbar-brand logo-mob d-block d-md-none" href="{{ "/" | absURL }}">
                   <img src="{{ "images/mainlogo1.png" | absURL }}" class="img-fluid d-block d-md-none" alt="" title=""
                       style="width:250px;">
               </a>
@@ -22,28 +22,20 @@
 
               <div class="collapse navbar-collapse text-md-end" id="navbarSupportedContent">
                   <ul class="navbar-nav">
+                      {{ range .Site.Data.nav.links }}
                       <li class="nav-item">
-                          <a class="nav-link active text-white" aria-current="page" href="#">Schedule</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link text-white" href="#">Speakers</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle text-white" id="navbarDropdownMenuLink" href="#"
-                              data-bs-toggle="dropdown" aria-expanded="false">
-                              About
+                          <a 
+                            class="nav-link text-white"
+                            href="{{ .link | absURL }}">
+                            {{ .name }}
                           </a>
-                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                              <li><a class="dropdown-item" href="about/">About company</a></li>
-                          </ul>
                       </li>
-                      <li class="nav-item">
-                          <a class="nav-link text-white" href="#">Blogs</a>
-                      </li>
+                      {{ end }}
                       <li class="nav-item d-block d-md-none">
-                          <a href="#" class="text-decoration-none text-end">
+                          <a href="{{ .Site.Data.nav.primary_button_link }}"
+                            class="text-decoration-none text-end">
                               <div class="violet-white text-center text-end">
-                                  Book ticket
+                                  {{ .Site.Data.nav.primary_button_text }}
                               </div>
                           </a>
                       </li>
@@ -53,9 +45,9 @@
           </div>
 
           <div class="col-lg-3 col-md-4 d-none d-md-block">
-              <a href="#" class="text-decoration-none text-end">
+              <a href="{{ .Site.Data.nav.primary_button_link }}" class="text-decoration-none text-end">
                   <div class="violet-white text-center text-end">
-                      Book ticket
+                    {{ .Site.Data.nav.primary_button_text }}
                   </div>
               </a>
           </div>

@@ -8,50 +8,36 @@
           <div class="col-xl-2  col-md-3 col-6 ml-top">
               <h4 class="text-white footer-head mb-md-4">Follow Us on</h4>
               <ul class="list-group list-group-horizontal bg-yellow-hover">
-                  <li class="list-group-item pe-0 pe-md ps-0"><a href="">
+                  {{ range $index, $value := .Site.Data.footer.social_links }}
+                  <li class="list-group-item pe-0 pe-md{{ if (eq $index 0) }} ps-0{{ end }}">
+                      <a href="{{ .link }}">
                           <!-- <img src="images/fb.png" class="img-fluid" alt=""
                               title="facebook"> -->
-                          <i class="fab fa-facebook-f text-white" title="facebook"></i>
+                          <i class="{{ .icon }} text-white" title="{{ .name }}"></i>
                       </a>
                   </li>
-                  <li class="list-group-item pe-0 pe-md"><a href="">
-                          <!-- <img src="images/insta.png" class="img-fluid" alt=""
-                              title="instagram"> -->
-                          <i class="fab fa-instagram text-white" title="instagram"></i>
-                      </a></li>
-                  <li class="list-group-item pe-0 pe-md"><a href="">
-                          <!-- <img src="images/twitter.png" class="img-fluid" alt=""
-                              title="twitter"> -->
-                          <i class="fab fa-twitter text-white" title="twitter"></i>
-                      </a></li>
-                  <li class="list-group-item pe-0 pe-md"><a href="">
-                          <i class="fab fa-linkedin text-white" title="linkedin"></i>
-                      </a></li>
+                  {{ end }}
               </ul>
               <!-- only for mobile -->
-              <a href="" class="text-decoration-none d-block d-md-none mt-4">
+              <a href="{{ .Site.Data.footer.primary_button_link }}" class="text-decoration-none d-block d-md-none mt-4">
                   <div class="yellow-white text-center mt-md-5">
-                      Book ticket
+                    {{ .Site.Data.footer.primary_button_text }}
                   </div>
               </a>
           </div>
           <div class="col-xl-2  col-md-3 col-6 ml-top ps-md-5">
               <h4 class="text-white footer-head mb-md-2">Quick Links</h4>
               <ul class="list-group quick-hover">
-                  <li class="list-group-item ps-0"><a href=""
-                          class="text-decoration-none text-white fw-bold">Speakers</a></li>
-                  <li class="list-group-item ps-0"><a href="{{ "about/" | absURL }}"
-                          class="text-decoration-none text-white fw-bold">About</a></li>
-                  <li class="list-group-item ps-0"><a href=""
-                          class="text-decoration-none text-white fw-bold">Sponsors</a></li>
-                  <li class="list-group-item ps-0"><a href=""
-                          class="text-decoration-none text-white fw-bold">Schedule</a></li>
+                  {{ range .Site.Data.footer.quick_links }}
+                  <li class="list-group-item ps-0"><a href="{{ .link | absURL }}"
+                          class="text-decoration-none text-white fw-bold">{{ .name }}</a></li>
+                  {{ end }}
               </ul>
           </div>
           <div class="col-xl-3  col-md-3 ml-top mt-md-3 d-none d-md-block">
-              <a href="" class="text-decoration-none">
+              <a href="{{ .Site.Data.footer.primary_button_link }}" class="text-decoration-none">
                   <div class="yellow-white text-center mt-md-5">
-                      Book ticket
+                    {{ .Site.Data.footer.primary_button_text }}
                   </div>
               </a>
           </div>

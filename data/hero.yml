@@ -2,10 +2,10 @@ hero_text: "The largest gathering of Pythonistas in India for the Python
             programming language."
 primary_button:
   text: Submit a Talk
-  link: ""
+  link: "/cfp/2021/proposals/"
 secondary_button:
   text: Book ticket
-  link: ""
+  link: "/#tickets"
 about_title: About PyCon India
 about_text: "PyCon India is the largest gathering of Pythonistas in
             India for the Python programming language. The 13th edition of
@@ -14,4 +14,4 @@ about_text: "PyCon India is the largest gathering of Pythonistas in
             to make this year's conference bigger, better, and more accessible
             to Pythonistas all across the world who can watch, participate
             and share their views right from the comfort of their homes."
-about_link: ""
+about_link: "/about/"
