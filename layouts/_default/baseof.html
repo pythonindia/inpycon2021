@@ -23,12 +23,12 @@
 
 <body class="enabled-focus">
 
-  {{ partial "header.html" }}
+  {{ partial "header.html" . }}
 
   {{ block "main" . }}
   {{ end }}
 
-  {{ partial "footer.html" }}
+  {{ partial "footer.html" . }}
 
   <script src="{{ "js/aos.js" | absURL }}"></script>
   <script src="{{ "js/bootstrap.bundle.min.js" | absURL }}"></script>

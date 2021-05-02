@@ -1,0 +1,26 @@
+primary_button_text: "Book ticket"
+primary_button_link: "/#tickets"
+
+social_links:
+  - name: Facebook
+    icon: "fab fa-facebook-f"
+    link: https://www.facebook.com/PyConIndia/
+  - name: Twitter
+    icon: "fab fa-twitter"
+    link: https://twitter.com/pyconindia/
+  - name: Instagram
+    icon: "fab fa-instagram"
+    link: https://www.instagram.com/__pyconindia__/
+  - name: Linkedin
+    icon: "fab fa-linkedin"
+    link: https://www.linkedin.com/company/pyconindia/
+
+quick_links:
+  - name: CoC
+    link: /coc/
+  - name: Reporting
+    link: /reporting/
+  - name: Mailing list
+    link: https://mail.python.org/mailman/listinfo/inpycon
+  - name: Zulip
+    link: https://pyconindia.zulipchat.com/
