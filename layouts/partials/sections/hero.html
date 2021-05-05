@@ -18,6 +18,7 @@
                   {{ .hero_content.hero_text }}
               </p>
               <div class="row mt-md-4 pb-md-4 pb-5 align-items-center">
+                  {{ if .hero_content.primary_button.text }}
                   <div class="col-lg-5 col-md-7 col-sm-6 col-12  ps-3 ps-md-0">
                       <a href="{{ .hero_content.primary_button.link }}" class="text-decoration-none">
                           <div class="violet-yellow text-center" data-aos="fade-left"
@@ -26,12 +27,16 @@
                           </div>
                       </a>
                   </div>
+                  {{ end }}
+
+                  {{ if .hero_content.secondary_button.text }}
                   <div class="col-lg-7 col-md col-sm-6 col-12 yellow-text white-hovertext text-md text-center pt-4 pt-sm pt-md"
                       data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-duration="5000">
                       <a href="{{ .hero_content.secondary_button.link }}" class="text-decoration-none yellow-text white-hovertext book-ticket ps-lg-4">
                         {{ .hero_content.secondary_button.text }} <i class="fas fa-chevron-circle-right ps-2"></i>
                       </a>
                   </div>
+                  {{ end }}
               </div>
           </div>
 
