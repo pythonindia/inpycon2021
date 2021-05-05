@@ -1,67 +1,20 @@
 <!-- communities section started -->
 <section class="sponsor-section">
-  <div class="container-fluid">
+  <div class="container">
       <div class="row align-items-center ml-space">
-          <div class="col-lg-7 col-md col-sm-4 p-0">
-              <h1 class="text-white fw-bold sponsor-head" data-aos="fade-right" data-aos-duration="3000">Sponsors</h1>
+          <div class="col-md-12 text-center mt-5 mb-5">
+              <h1 class="text-white fw-bold sponsor-head" data-aos="fade-right" data-aos-duration="3000">Outreach Partners</h1>
           </div>
-          <div class="col-lg-4 col-md col-sm" data-aos="fade-left" data-aos-duration="3000">
-              <a href="" class="yellow-text yellow-hovertext text-decoration-none">Download Sponsorship
-                  Prospectus <i class="fas fa-arrow-circle-down"></i></a>
-          </div>
-          <div class="col-md-11 p-0">
-              <p class="text-grey pt-4">PyCon India is a volunteer-driven event Sponsoring the event helps
-                  bring the volunteers effort to fruition, sustain, and improve the conference and grow the
-                  community. Sponsors help us make the conference affordable, bring more facilities to our
-                  attendees, and maintain the inventory for the conference. </p>
-          </div>
-          <!-- platinum sponsor -->
-          <div class="col-md-2 col-sm-2 col-3 p-0" data-aos="fade-left" data-aos-duration="3000">
-              <h3 class="spon-subhead yellow-text mt-5">Platinum
-              </h3>
-          </div>
-          <div class="col-md-10 col-sm-10 col-9 p-0 mt-5" data-aos="fade-left" data-aos-duration="3000">
-              <div class="dotted-line"></div>
-          </div>
+          {{ range .communities }}
           <div class="col-md-4 col-6 pt-md-5 mt-md-4">
-              <img src="images/sp-1.png" class="img-fluid" alt="" title="">
+              <a href="{{ .link }}">
+                <img src="{{ .image | absURL }}" 
+                  class="img-fluid"
+                  alt="Logo of outreach partner {{ .name }}"
+                  title="{{ .name }}">
+              </a>
           </div>
-          <div class="col-md-4 col-6 pt-md-5 mt-md-4">
-              <img src="images/sp-2.png" class="img-fluid" alt="" title="">
-          </div>
-          <div class="col-md-4"></div>
-          <!-- gold sponsor -->
-          <div class="col-md-1 col-sm-1 col-2 p-0 mt-5" data-aos="fade-left" data-aos-duration="3000">
-              <h3 class="spon-subhead yellow-text mt-md-5">Gold
-              </h3>
-          </div>
-          <div class="col-md-11 col-sm-11 col-10 p-0 mt-md-5" data-aos="fade-left" data-aos-duration="3000">
-              <div class="dotted-line pt-5"></div>
-          </div>
-          <div class="col-md-4 col-6 pt-md-5 mt-md-4">
-              <img src="images/sp-3.png" class="img-fluid" alt="" title="">
-          </div>
-          <div class="col-md-4 col-6 pt-md-5 mt-md-4">
-              <img src="images/sp-4.png" class="img-fluid" alt="" title="">
-          </div>
-          <div class="col-md-4"></div>
-          <!-- silver sponsor -->
-          <div class="col-md-1 col-sm-1 col-2 p-0 mt-5" data-aos="fade-left" data-aos-duration="3000">
-              <h3 class="spon-subhead yellow-text mt-md-5">Silver
-              </h3>
-          </div>
-          <div class="col-md-11 col-sm-11 col-10 p-0 mt-5" data-aos="fade-left" data-aos-duration="3000">
-              <div class="dotted-line pt-md-5"></div>
-          </div>
-          <div class="col-md-4 col-6 pt-md-5 mt-md-4">
-              <img src="images/sp-5.png" class="img-fluid" alt="" title="">
-          </div>
-          <div class="col-md-4 col-6 pt-md-5 mt-md-4">
-              <img src="images/sp-6.png" class="img-fluid" alt="" title="">
-          </div>
-          <div class="col-md-4 col-6 pt-md-5 mt-md-4">
-              <img src="images/sp-7.png" class="img-fluid" alt="" title="">
-          </div>
+          {{ end }}
       </div>
   </div>
 </section>

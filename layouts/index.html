@@ -4,8 +4,11 @@
     {{ partial "sections/hero.html" (dict "hero_content" .Site.Data.hero) }}
 
     {{ partial "sections/about.html" (dict "hero_content" .Site.Data.hero) }}
-
+    
     <!-- Tickets-->
-    {{ partial "sections/ticket.html" (dict "tickets" .Site.Data.tickets) }}
+    <!-- {{ partial "sections/ticket.html" (dict "tickets" .Site.Data.tickets) }} -->
+
+    <!-- Community Partners -->
+    {{ partial "sections/community.html" (dict "communities" .Site.Data.communities) }}
     
 {{ end }}
