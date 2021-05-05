@@ -4,11 +4,23 @@
     {{ partial "sections/hero.html" (dict "hero_content" .Site.Data.hero) }}
 
     {{ partial "sections/about.html" (dict "hero_content" .Site.Data.hero) }}
-    
+
+    <!-- Keynote Speakers -->
+    {{ if .Site.Data.keynote_speakers.live }}
+        {{ partial "sections/speakers.html" (dict "speakers" .Site.Data.keynote_speakers.data) }}
+    {{ end }}
+
     <!-- Tickets-->
-    <!-- {{ partial "sections/ticket.html" (dict "tickets" .Site.Data.tickets) }} -->
+    {{ if .Site.Data.tickets.live }}
+        {{ partial "sections/ticket.html" (dict "tickets" .Site.Data.tickets.data) }}
+    {{ end }}
+
+    <!-- Schedule -->
+    <!-- TODO: Convert into proper data format and then modify and include partial-->
 
     <!-- Community Partners -->
-    {{ partial "sections/community.html" (dict "communities" .Site.Data.communities) }}
+    {{ if .Site.Data.communities.live }}
+        {{ partial "sections/community.html" (dict "communities" .Site.Data.communities.data) }}
+    {{ end }}
     
 {{ end }}

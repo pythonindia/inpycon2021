@@ -1,9 +1,11 @@
--
-  name: Partner 1
-  image: images/sp-1.png
-  link: https://example.com
+live: true
+data:
+  -
+    name: Partner 1
+    image: images/sp-1.png
+    link: https://example.com
 
--
-  name: Partner 2
-  image: images/sp-2.png
-  link: https://example.com
+  -
+    name: Partner 2
+    image: images/sp-2.png
+    link: https://example.com
