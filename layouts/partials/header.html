@@ -24,7 +24,7 @@
                   <ul class="navbar-nav">
                       {{ range .Site.Data.nav.links }}
                       <li class="nav-item">
-                          <a 
+                          <a
                             class="nav-link text-white"
                             href="{{ .link | absURL }}">
                             {{ .name }}
@@ -44,6 +44,7 @@
               </div>
           </div>
 
+          {{ if .Site.Data.tickets.live }}
           <div class="col-lg-3 col-md-4 d-none d-md-block">
               <a href="{{ .Site.Data.nav.primary_button_link }}" class="text-decoration-none text-end">
                   <div class="violet-white text-center text-end">
@@ -51,6 +52,7 @@
                   </div>
               </a>
           </div>
+          {{ end }}
       </div>
   </div>
 
