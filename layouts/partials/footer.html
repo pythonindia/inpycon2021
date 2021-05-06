@@ -34,6 +34,7 @@
                   {{ end }}
               </ul>
           </div>
+        {{ if .Site.Data.tickets.live }}
           <div class="col-xl-3  col-md-3 ml-top mt-md-3 d-none d-md-block">
               <a href="{{ .Site.Data.footer.primary_button_link }}" class="text-decoration-none">
                   <div class="yellow-white text-center mt-md-5">
@@ -41,6 +42,7 @@
                   </div>
               </a>
           </div>
+        {{ end }}
           <div class="col-lg-12 text-center  pt-lg-2 pt-md-5 pt-5 pb-md-4">
               <p class="text-grey pt-4">Copyright © 2021 PyCon India.</p>
           </div>
