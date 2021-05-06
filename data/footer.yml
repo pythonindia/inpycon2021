@@ -17,9 +17,9 @@ social_links:
 
 quick_links:
   - name: CoC
-    link: /coc/
+    link: coc/
   - name: Reporting
-    link: /reporting/
+    link: reporting/
   - name: Mailing list
     link: https://mail.python.org/mailman/listinfo/inpycon
   - name: Zulip
