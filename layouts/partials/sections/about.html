@@ -10,7 +10,7 @@
                   {{ .hero_content.about_text }}
               </p>
               <div class="know-more  yellow-text white-hovertext">
-                  <a href="{{ .hero_content.about_link }}" class="text-decoration-none fw-bold  yellow-text white-hovertext">Know More <i
+                  <a href="{{ .hero_content.about_link | absURL }}" class="text-decoration-none fw-bold  yellow-text white-hovertext">Know More <i
                           class="fas fa-chevron-circle-right ps-2"></i> </a>
               </div>
           </div>
