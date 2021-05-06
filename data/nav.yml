@@ -5,3 +5,5 @@ links:
     link: about/
   - name: CoC
     link: coc/
+  - name: Blog
+    link: https://in.pycon.org/blog/
