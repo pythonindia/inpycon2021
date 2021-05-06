@@ -11,7 +11,7 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 **If you believe anyone is in physical danger, please notify appropriate law enforcement first.** If you are unsure what law enforcement agency is appropriate, please include this in your report and we will attempt to notify them.
 
-**If you are unsure whether the incident is a violation, or whether the space where it happened is covered by the [Code of Conduct](/coc/), we encourage you to still report it. We would much rather have a few extra reports where we decide to take no action, rather than miss a report of an actual violation. We do not look negatively on you if we find the incident is not a violation. And knowing about incidents that are not violations, or happen outside our spaces, can also help us to improve the Code of Conduct or the processes surrounding it.
+**If you are unsure whether the incident is a violation, or whether the space where it happened is covered by the [Code of Conduct](https://in.pycon.org/2021/coc/), we encourage you to still report it. We would much rather have a few extra reports where we decide to take no action, rather than miss a report of an actual violation. We do not look negatively on you if we find the incident is not a violation. And knowing about incidents that are not violations, or happen outside our spaces, can also help us to improve the Code of Conduct or the processes surrounding it.
 
 ## In Your Report Please Include
 
@@ -62,4 +62,3 @@ Thank you for helping to make PyCon India a welcoming, friendly event for all. L
 This Reporting guide was forked “Django Code of Conduct - Reporting Guide” by Django Software Foundation which is under a Creative Commons Attribution license.
 
 PyCon India Conference Reporting Guide is licensed under a Creative Commons Attribution 3.0 Unported License.
-

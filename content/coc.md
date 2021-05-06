@@ -37,7 +37,7 @@ Thank you for helping to make PyCon India a welcoming, friendly event for all.
 
 #### Contact Information
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact an Organizer. Organizer/Volunteer name will be highlighted with the Organizer tag in Hopin Platform or drop an email to report@in.pycon.org.
-Read more about it in our [Reporting Guide](/reporting/)
+Read more about it in our [Reporting Guide](https://in.pycon.org/2021/reporting/)
 
 You may also ask to be put in touch with the Diversity and Inclusion WG chair‚ Sukanya Mandal.
 
@@ -65,4 +65,4 @@ If the matter is especially urgent, please call/contact any of these individuals
 
 
 #### License
-This Code of Conduct was forked from PSF Code of Conduct by Python Software Foundation which is under a Creative Commons Attribution 3.0 Unported License. PyCon India Conference Code of Conduct is licensed under a Creative Commons Attribution 3.0 Unported License. 
+This Code of Conduct was forked from PSF Code of Conduct by Python Software Foundation which is under a Creative Commons Attribution 3.0 Unported License. PyCon India Conference Code of Conduct is licensed under a Creative Commons Attribution 3.0 Unported License.
