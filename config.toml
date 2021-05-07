@@ -1,6 +1,6 @@
 baseURL = "http://localhost"
 languageCode = "en-us"
-title = "PyCon India 2020 | September 17th to 20th"
+title = "PyCon India 2021 | September 17th to 20th"
 
 [params]
     description = "PyCon India is the largest gathering of Pythonistas in India for the Python programming language."
