@@ -4,3 +4,8 @@ data:
     name: FOSS United
     image: https://fossunited.org//files/fu.png
     link: https://fossunited.org
+
+  -
+    name: GirlScript Foundation
+    image: https://www.girlscript.tech/Scripts/images/logo/gs_new.png
+    link: https://www.girlscript.tech/
