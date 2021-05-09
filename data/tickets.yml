@@ -6,13 +6,14 @@ data:
     price: 450
     category: conference
     link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
+    status: sold
 
-  # -
-  #   name: Regular Ticket
-  #   details: Sale ends by 15 September, 2021 11:30 PM (Asia/Kolkata) OR completion of 800 tickets
-  #   price: 600
-  #   category: conference
-  #   link: ""
+  -
+    name: Regular Ticket
+    details: Sale ends by 15 September, 2021 11:30 PM (Asia/Kolkata) OR completion of 800 tickets
+    price: 600
+    category: conference
+    link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
 
   # -
   #   name: Late Bird Ticket
@@ -23,11 +24,18 @@ data:
 
   # # There can be only 1 workshop ticket item right now
   # -
-  #   name: Workshop Ticket
-  #   details: Sale ends by 15 September, 2021 09:00 AM (Asia/Kolkata) OR completion of 200 tickets
-  #   price: 800
-  #   category: workshop
-  #   link: ""
+  #  name: Workshop Ticket
+  #  details: Sale ends by 15 September, 2021 09:00 AM (Asia/Kolkata) OR completion of 200 tickets
+  #  price: 800
+  #  category: workshop
+  #  link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
+
+  # -
+  #  name: Combo (Workshop + Conference) Ticket
+  #  details: Sale ends by 15 September, 2021 09:00 AM (Asia/Kolkata) OR completion of 200 tickets
+  #  price: 1260
+  #  category: workshop
+  #  link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
 
   # # There can be only 1 devsprint ticket item right now
   # -
