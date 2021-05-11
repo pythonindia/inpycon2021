@@ -20,7 +20,7 @@
 
     <!-- Community Partners -->
     {{ if .Site.Data.communities.live }}
-        {{ partial "sections/community.html" (dict "communities" .Site.Data.communities.data) }}
+        {{ partial "sections/community.html" (dict "communities" .Site.Data.communities.data "outreach_blog_link" .Site.Data.communities.outreach_blog_link "outreach_form_link" .Site.Data.communities.outreach_form_link) }}
     {{ end }}
     
 {{ end }}

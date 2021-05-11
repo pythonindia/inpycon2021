@@ -1,4 +1,6 @@
 live: true
+outreach_blog_link: https://in.pycon.org/blog/2021/outreach-partners.html
+outreach_form_link: https://forms.gle/7NkLhwJMmAow77a17
 data:
   -
     name: FOSS United

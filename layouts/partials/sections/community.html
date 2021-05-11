@@ -5,6 +5,20 @@
           <div class="col-md-12 text-center mt-5 mb-5">
               <h1 class="text-white fw-bold sponsor-head pt-md-4" data-aos="fade-right" data-aos-duration="3000">Outreach Partners</h1>
           </div>
+          <div class="col-md-11 p-0">
+            <p class="text-grey pt-2">PyCon India is a volunteer-driven event. Outreach partners
+              can help spread the word about our conference in communities all over the world and
+              bring fresh faces to the platform in hopes of creating a more inclusive, accessible
+              conference this year. If you are an organization or a community interested in becoming
+              an outreach partner for PyCon India 2021, 
+              {{ if .outreach_blog_link }}
+                check out our <a href="{{ .outreach_blog_link }}" class="yellow-text yellow-hovertext">blog</a> or
+              {{ end }}
+              {{ if .outreach_form_link }}
+                fill the <a href="{{ .outreach_form_link }}" class="yellow-text yellow-hovertext">outreach partner form</a>
+              {{ end }}
+            </p>
+          </div>
           {{ range .communities }}
           <div class="col-md-4 col-6 pt-md-5 mt-md-4">
               <a href="{{ .link }}">
