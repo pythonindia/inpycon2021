@@ -34,6 +34,11 @@ body.enabled-focus a:focus > .yellow-white{
   color: #fbc343;
 }
 
+a.yellow-text:focus {
+  border:1px solid #e9c535;
+  padding: 0px 5px;
+}
+
 .violet-text {
   color: #8921cc;
 }
