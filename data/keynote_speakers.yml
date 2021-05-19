@@ -1,6 +1,6 @@
-live: false
+live: true
 data:
   -
-    name: Alolit Sharma
-    affiliation: Amazon Web Services Unicode Consortium
-    image: images/s1.png
+    name: Alolita Sharma
+    affiliation: Principal Technologist, Amazon Web Services Unicode Consortium
+    image: https://commons.wikimedia.org/wiki/File:Alolita_Sharma_004_-_Berlin_2011.jpg
