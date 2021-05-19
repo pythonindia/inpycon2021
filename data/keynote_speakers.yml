@@ -1,6 +1,7 @@
-live: false
+live: true
 data:
   -
     name: Alolit Sharma
     affiliation: Amazon Web Services Unicode Consortium
     image: images/s1.png
+    link: https://link.to.blog
