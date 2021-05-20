@@ -14,7 +14,7 @@
                   <a href = "{{ .link }}">
                     <h3 class="key-head text-white pt-3">{{ .name }}</h3>
                   </a>
-                  <p class="key-para text-grey">{{ .affiliation }}</p>
+                  <p class="key-para text-grey">{{ .affiliation | safeHTML }}</p>
               </div>
           </div>
           {{ end }}
