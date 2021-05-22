@@ -1,0 +1,6 @@
+live: true
+data:
+  -
+    name: Afrost
+    image: images/afrost.jpg
+    link: https://afrost.org/
