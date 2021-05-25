@@ -18,9 +18,14 @@
     <!-- Schedule -->
     <!-- TODO: Convert into proper data format and then modify and include partial-->
 
-    <!-- Community Partners -->
+    <!-- Outreach Partners -->
     {{ if .Site.Data.communities.live }}
         {{ partial "sections/community.html" (dict "communities" .Site.Data.communities.data "outreach_blog_link" .Site.Data.communities.outreach_blog_link "outreach_form_link" .Site.Data.communities.outreach_form_link) }}
+    {{ end }}
+
+    <!-- Community Sponsors -->
+    {{ if .Site.Data.sponsors.live }}
+        {{ partial "sections/sponsors.html" (dict "sponsors" .Site.Data.sponsors.data) }}
     {{ end }}
     
 {{ end }}
