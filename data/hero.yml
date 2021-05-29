@@ -1,9 +1,6 @@
 hero_text: "The largest gathering of Pythonistas in India for the Python
             programming language."
 primary_button:
-  text: Submit a Talk
-  link: "/cfp/2021/proposals/"
-secondary_button:
   text: Submit BoF or Poster Session
   link: "https://in.pycon.org/cfp/bofs-and-posters-2021/proposals/"
 about_title: About PyCon India
