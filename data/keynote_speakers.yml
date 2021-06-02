@@ -5,3 +5,8 @@ data:
     affiliation: Principal Technologist,<br/> Amazon Web Services Unicode Consortium
     image: images/s1.png
     link: https://in.pycon.org/blog/2021/keynote-announcement-alolita-sharma.html
+  -
+    name: Sebastián Ramírez
+    affiliation: Creator of FastAPI, Typer
+    image: images/sebastian.png
+    link: https://in.pycon.org/blog/2021/keynote-announcement-sebastian-ramirez.html
