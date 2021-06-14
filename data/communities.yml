@@ -16,3 +16,8 @@ data:
     name: Null Community
     image: images/null-logo.jpeg
     link: https://null.community
+
+  -
+    name: Packt Publishing
+    image: images/packt.png
+    link: https://www.packtpub.com
