@@ -10,3 +10,8 @@ data:
     affiliation: Creator of FastAPI, Typer
     image: images/sebastian.png
     link: https://in.pycon.org/blog/2021/keynote-announcement-sebastian-ramirez.html
+  -
+    name: Dr. Ajith Kumar B P
+    affiliation: Educator and Scientist
+    image: images/ajith.png
+    link: https://in.pycon.org/blog/2021/keynote-announcement-ajith-kumar.html
