@@ -23,19 +23,19 @@ data:
   #   link: ""
 
   # # There can be only 1 workshop ticket item right now
-  # -
-  #  name: Workshop Ticket
-  #  details: Sale ends by 15 September, 2021 09:00 AM (Asia/Kolkata) OR completion of 200 tickets
-  #  price: 800
-  #  category: workshop
-  #  link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
+  -
+    name: Workshop Ticket
+    details: Sale ends by 15 September, 2021 09:00 AM (Asia/Kolkata) OR completion of 200 tickets
+    price: 800
+    category: workshop
+    link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
 
-  # -
-  #  name: Combo (Workshop + Conference) Ticket
-  #  details: Sale ends by 15 September, 2021 09:00 AM (Asia/Kolkata) OR completion of 200 tickets
-  #  price: 1260
-  #  category: workshop
-  #  link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
+  -
+    name: Combo Ticket
+    details: Workshop and Conference Ticket, Sale ends on completion of 200 tickets
+    price: 1260
+    category: workshop
+    link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
 
   # # There can be only 1 devsprint ticket item right now
   # -
