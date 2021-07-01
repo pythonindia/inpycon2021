@@ -15,3 +15,8 @@ data:
     affiliation: Educator and Scientist
     image: images/ajith.png
     link: https://in.pycon.org/blog/2021/keynote-announcement-ajith-kumar.html
+  -
+    name: Luciano Ramalho
+    affiliation: Author of Fluent Python
+    image: images/luciano.png
+    link: https://in.pycon.org/blog/2021/keynote-announcement-luciano-ramalho.html
