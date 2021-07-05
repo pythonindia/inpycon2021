@@ -590,7 +590,6 @@ a.yellow-text:focus {
 .about-sub-sec {
   background: #21292e url("../images/about-sub.png") no-repeat;
   background-size: contain;
-  height: 864px;
 }
 
 .about-sub-sec .about-pg-head {
