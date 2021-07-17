@@ -55,6 +55,8 @@ You will also get access to all the open space discussions and other sessions du
 
 **Yes**, a separate ticket would have to be purchased for each workshop. The details for the workshop tickets will be updated soon.
 
+If you wish to attend both the conference and workshops, you can also get a combo ticket which gives you access to the complete event, including the conference, devsprints, and workshops.
+
 ### Q. Is there a different ticket for the Devsprints?
 
 **No**, the conference ticket includes complete access to the dev sprints. The ticket holders do not have to pay anything extra. But, the attendees will be asked to register for the dev sprints as that would help the conference with logistics.
