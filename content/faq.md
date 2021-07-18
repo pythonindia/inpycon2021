@@ -17,7 +17,7 @@ You can also join our [Zulip channel](https://pyconindia.zulipchat.com/) or foll
 
 ### Q. I want to present a talk/workshop at the conference. What should I do?
 
-You can submit your talk/workshop proposal on our [CFP Page](https://in.pycon.org/cfp/2020/proposals/). The deadline for submitting CFP for thsi year's conference has passed, please submit a talk next year. 
+You can submit your talk/workshop proposal on our [CFP Page](https://in.pycon.org/cfp/2021/proposals/). The deadline for submitting CFP for thsi year's conference has passed, please submit a talk next year. 
 
 ### Q. I want to volunteer for the conference. What should I do?
 
