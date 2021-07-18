@@ -1,4 +1,4 @@
-# PyCon India 2021 Website
+# [PyCon India 2021 Website](https://in.pycon.org/2021/)
 
 This repo contains the code for PyCon India 2021's website.
 The website is build using Hugo and contains both the hugo templates and data files related to the website
@@ -33,4 +33,4 @@ If you are interested in contributing to the website, please check out our Contr
 
 ## Code of Conduct
 
-As a contributor please follow the Code of Conduct to keep the community open and inclusive. Please read and follow the [PyCon India Code of Conduct](https://in.pycon.org/2020/coc/) which governs the overall conduct for the conference.
+As a contributor please follow the Code of Conduct to keep the community open and inclusive. Please read and follow the [PyCon India Code of Conduct](https://in.pycon.org/2021/coc/) which governs the overall conduct for the conference.
