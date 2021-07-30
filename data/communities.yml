@@ -11,3 +11,13 @@ data:
     name: Null Community
     image: images/null-logo.jpeg
     link: https://null.community
+
+  -
+    name: InfosecGirls
+    image: images/infosecgirls.png
+    link: https://infosecgirls.in/
+
+  -
+    name: ALiAS
+    image: images/alias.png
+    link: https://asetalias.in/
