@@ -1,7 +1,7 @@
 <!-- communities section started -->
 <section class="sponsor-section">
   <div class="container">
-      <div class="row align-items-center ml-space">
+      <div class="row align-items-center">
           <div class="col-md-12 text-center mt-5 mb-5">
               <h1 class="text-white fw-bold sponsor-head pt-md-4" data-aos="fade-right" data-aos-duration="3000">Outreach Partners</h1>
           </div>
@@ -20,10 +20,10 @@
             </p>
           </div>
           {{ range .communities }}
-          <div class="col-md-4 col-6 pt-md-5 mt-md-4">
+          <div class="col-md-4 col-6 pt-md-5 mt-md-4 text-center">
               <a href="{{ .link }}">
                 <img src="{{ .image | absURL }}" 
-                  class="img-fluid"
+                  class="img-fluid sponsor-image"
                   alt="Logo of outreach partner {{ .name }}"
                   title="{{ .name }}">
               </a>

@@ -533,6 +533,10 @@ a.yellow-text:focus {
   border-bottom: 3px dashed #575757;
 }
 
+.sponsor-section img.sponsor-image {
+  max-height: 300px;
+}
+
 .page {
   background: #21292e url("../images/b1.png") no-repeat;
   background-position: top 155px right;
