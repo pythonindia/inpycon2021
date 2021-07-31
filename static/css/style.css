@@ -282,6 +282,14 @@ a.yellow-text:focus {
   font-size: 17px;
 }
 
+
+.keynote-section a.speaker-link {
+  color: #FFF;
+}
+.keynote-section a.speaker-link:focus h3 {
+  border: 1px solid #FFF;
+}
+
 .ticket-section {
   background: #fbc343;
 }
