@@ -16,7 +16,9 @@
     {{ end }}
 
     <!-- Schedule -->
-    <!-- TODO: Convert into proper data format and then modify and include partial-->
+    {{ if .Site.Data.schedule.live }}
+        {{ partial "sections/schedule.html" (dict "schedules" .Site.Data.schedule.data) }}
+    {{ end }}
 
     <!-- Outreach Partners -->
     {{ if .Site.Data.communities.live }}

@@ -1,0 +1,139 @@
+live: true
+data:
+  -
+    date: 17th Sept
+    schedule:
+      - time: 10:30 am
+        talks:
+          - title: Keynote 1
+            speaker: Luciano
+            type: keynote
+
+      - time: 11:30 am
+        talks:
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+          
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+      
+      - time: 12:30 pm
+        talks:
+          - title: Break/Networking
+            type: extra
+
+      - time: 2:30 pm
+        talks:
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+          
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+
+  -
+    date: 18th Sept
+    schedule:
+      - time: 10:30 am
+        talks:
+          - title: Keynote 2
+            speaker: Luciano
+            type: keynote
+
+      - time: 11:30 am
+        talks:
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+          
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+      
+      - time: 12:30 pm
+        talks:
+          - title: Break/Networking
+            type: extra
+
+      - time: 2:30 pm
+        talks:
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+          
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+
+  -
+    date: 19th Sept
+    schedule:
+      - time: 10:30 am
+        talks:
+          - title: Keynote 3
+            speaker: Luciano
+            type: keynote
+
+      - time: 11:30 am
+        talks:
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+          
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+      
+      - time: 12:30 pm
+        talks:
+          - title: Break/Networking
+            type: extra
+
+      - time: 2:30 pm
+        talks:
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+          
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk
+
+          - title: Getting Started with Python
+            speaker: Evan Smith
+            type: talk

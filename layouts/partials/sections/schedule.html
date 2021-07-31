@@ -13,297 +13,54 @@
               <!-- tabs -->
               <div class="tab-sec mt-5">
                   <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                      {{ range $index, $element := .schedules }}
                       <li class="nav-item white-hovertext" role="presentation">
-                          <button class="nav-link  active" id="pills-home-tab" data-bs-toggle="pill"
-                              data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                              aria-selected="true">2<sup>nd</sup> May</button>
+                          <button class="nav-link {{ if (eq $index 0) }}active{{ end }}" id="pills-{{ .date | urlize }}-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-{{ .date | urlize }}" type="button" role="tab" aria-controls="pills-{{ .date | urlize }}"
+                              aria-selected="true">{{ .date }}</button>
                       </li>
-                      <li class="nav-item white-hovertext" role="presentation">
-                          <button class="nav-link " id="pills-profile-tab" data-bs-toggle="pill"
-                              data-bs-target="#pills-profile" type="button" role="tab"
-                              aria-controls="pills-profile" aria-selected="false">3<sup>rd</sup> May</button>
-                      </li>
-                      <li class="nav-item white-hovertext" role="presentation">
-                          <button class="nav-link " id="pills-contact-tab" data-bs-toggle="pill"
-                              data-bs-target="#pills-contact" type="button" role="tab"
-                              aria-controls="pills-contact" aria-selected="false">4<sup>th</sup> May</button>
-                      </li>
+                      {{ end }}
                   </ul>
               </div>
 
               <div class="tab-content mt-md-5 pb-md-5" id="pills-tabContent">
-                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                      aria-labelledby="pills-home-tab">
+                  {{ range $index, $element := .schedules }}
+                  <div class="tab-pane fade {{ if (eq $index 0) }}show active{{ end }}" id="pills-{{ .date | urlize }}" role="tabpanel"
+                      aria-labelledby="pills-{{ .date | urlize }}-tab">
                       <div class="content text-white">
                           <ul class="timeline">
-                              <div class="row event" data-date="11:30">
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white">Getting Startedwith Python</h3>
-                                              <h6 class="yellow-text pt-md-3">Evan Smith</h6>
-                                          </li>
+                              {{ range $i, $elem := .schedule }}
+                              <div class="row event {{ if (ne $i 0) }}mt-2{{ end }}" data-date="{{ .time }}">
+                                  {{ range .talks }}
+                                    {{ if eq .type "talk"}}
+                                      <div
+                                          class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
+                                          <div class="timeline-box shadow">
+                                              <li>
+                                                  <h3 class="timeline-head text-white">{{ .title }}</h3>
+                                                  <h6 class="yellow-text pt-md-3">{{ .speaker }}</h6>
+                                              </li>
+                                          </div>
                                       </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white">Python for Computational Social
-                                                  Science with Text, Networks and clever data games</h3>
-                                              <h6 class="yellow-text pt-md-3">Evan Smith</h6>
-                                          </li>
+                                    {{ else }}
+                                      <div class="col-md-12 ps-0">
+                                          <div class="timeline-box shadow">
+                                              <li>
+                                                  <h3 class="timeline-head text-white text-center pt-2  fw-bold">{{ .title }}</h3>
+                                                  {{ if .speaker }}
+                                                  <h6 class="yellow-text text-center">{{ .speaker }}</h6>
+                                                  {{ end }}
+                                              </li>
+                                          </div>
                                       </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white">Getting Startedwith Python</h3>
-                                              <h6 class="yellow-text pt-md-3">Evan Smith</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white">Getting Startedwith Python</h3>
-                                              <h6 class="yellow-text pt-md-3">Evan Smith</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-
+                                    {{ end }}
+                                  {{ end }}
                               </div>
-                              <div class="row event mt-2" data-date="06:30">
-                                  <div class="col-md-12">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white text-center pt-2  fw-bold">Break
-                                                  / Networking</h3>
-
-                                          </li>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="row event mt-2" data-date="07:30">
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 d-flex align-items-stretch  mb-lg-0 mb-4 ps-0">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white"> Python on Kubernetes: A primer
-                                              </h3>
-                                              <h6 class="yellow-text pt-md-3">Nabarun Pal</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 d-flex align-items-stretch  mb-lg-0 mb-4 ps-0">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white"> Python on Kubernetes: A primer
-                                              </h3>
-                                              <h6 class="yellow-text pt-md-3">Nabarun Pal</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 d-flex align-items-stretch  mb-lg-0 mb-4 ps-0">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white"> Python on Kubernetes: A primer
-                                              </h3>
-                                              <h6 class="yellow-text pt-md-3">Nabarun Pal</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                              </div>
+                              {{ end }}
                           </ul>
                       </div>
                   </div>
-
-                  <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                      aria-labelledby="pills-profile-tab">
-                      <div class="content text-white">
-                          <ul class="timeline">
-                              <div class="row event" data-date="11:30">
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white">Getting Startedwith Python</h3>
-                                              <h6 class="yellow-text pt-md-3">Evan Smith</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white">Python for Computational Social
-                                                  Science with Text, Networks and clever data games</h3>
-                                              <h6 class="yellow-text pt-md-3">Evan Smith</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white">Getting Startedwith Python</h3>
-                                              <h6 class="yellow-text pt-md-3">Evan Smith</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white">Getting Startedwith Python</h3>
-                                              <h6 class="yellow-text pt-md-3">Evan Smith</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-
-                              </div>
-                              <div class="row event mt-2" data-date="06:30">
-                                  <div class="col-md-12">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white text-center pt-2  fw-bold">Break
-                                                  / Networking</h3>
-
-                                          </li>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="row event mt-2" data-date="07:30">
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 d-flex align-items-stretch  mb-lg-0 mb-4 ps-0">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white"> Python on Kubernetes: A primer
-                                              </h3>
-                                              <h6 class="yellow-text pt-md-3">Nabarun Pal</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 d-flex align-items-stretch  mb-lg-0 mb-4 ps-0">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white"> Python on Kubernetes: A primer
-                                              </h3>
-                                              <h6 class="yellow-text pt-md-3">Nabarun Pal</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 d-flex align-items-stretch  mb-lg-0 mb-4 ps-0">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white"> Python on Kubernetes: A primer
-                                              </h3>
-                                              <h6 class="yellow-text pt-md-3">Nabarun Pal</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                              </div>
-                          </ul>
-                      </div>
-                  </div>
-
-                  <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                      aria-labelledby="pills-contact-tab">
-                      <div class="content text-white">
-                          <ul class="timeline">
-                              <div class="row event" data-date="11:30">
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white">Getting Startedwith Python</h3>
-                                              <h6 class="yellow-text pt-md-3">Evan Smith</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white">Python for Computational Social
-                                                  Science with Text, Networks and clever data games</h3>
-                                              <h6 class="yellow-text pt-md-3">Evan Smith</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white">Getting Startedwith Python</h3>
-                                              <h6 class="yellow-text pt-md-3">Evan Smith</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white">Getting Startedwith Python</h3>
-                                              <h6 class="yellow-text pt-md-3">Evan Smith</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-
-                              </div>
-                              <div class="row event mt-2" data-date="06:30">
-                                  <div class="col-md-12">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white text-center pt-2  fw-bold">Break
-                                                  / Networking</h3>
-
-                                          </li>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="row event mt-2" data-date="07:30">
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 d-flex align-items-stretch  mb-lg-0 mb-4 ps-0">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white"> Python on Kubernetes: A primer
-                                              </h3>
-                                              <h6 class="yellow-text pt-md-3">Nabarun Pal</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 d-flex align-items-stretch  mb-lg-0 mb-4 ps-0">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white"> Python on Kubernetes: A primer
-                                              </h3>
-                                              <h6 class="yellow-text pt-md-3">Nabarun Pal</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                                  <div
-                                      class="col-lg-3 col-sm-6 col-12 d-flex align-items-stretch  mb-lg-0 mb-4 ps-0">
-                                      <div class="timeline-box shadow">
-                                          <li>
-                                              <h3 class="timeline-head text-white"> Python on Kubernetes: A primer
-                                              </h3>
-                                              <h6 class="yellow-text pt-md-3">Nabarun Pal</h6>
-                                          </li>
-                                      </div>
-                                  </div>
-                              </div>
-                          </ul>
-                      </div>
-                  </div>
+                  {{ end }}
               </div>
           </div>
       </div>
