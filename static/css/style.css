@@ -431,6 +431,25 @@ a.yellow-text:focus {
   background: #293339;
   border-radius: 10px;
   padding: 20px;
+  width: 100%;
+}
+
+.schedule-section .timeline .timeline-box a.talk-link {
+  color: #b7b7b7;
+}
+
+.schedule-section .timeline .timeline-box a.talk-link:hover {
+  color: #FFF;
+}
+
+.schedule-section .timeline .timeline-box a.talk-link:focus {
+  padding: 0;
+  border: none;
+  color: #FFF;
+}
+
+.schedule-section .timeline .timeline-box a.talk-link:focus h3 {
+  border: 1px solid;
 }
 
 .schedule-section .content {

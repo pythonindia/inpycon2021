@@ -32,12 +32,18 @@
                               {{ range $i, $elem := .schedule }}
                               <div class="row event {{ if (ne $i 0) }}mt-2{{ end }}" data-date="{{ .time }}">
                                   {{ range .talks }}
-                                    {{ if eq .type "talk"}}
+                                    {{ if (or (eq .type "talk") (eq .type "workshop")) }}
                                       <div
-                                          class="col-lg-3 col-sm-6 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
+                                          class="col-lg-4 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
                                           <div class="timeline-box shadow">
                                               <li>
-                                                  <h3 class="timeline-head text-white">{{ .title }}</h3>
+                                                  {{ if .link }}
+                                                  <a href="{{ .link }}" class="talk-link">
+                                                  {{ end }}
+                                                    <h3 class="timeline-head text-white">{{ .title }}</h3>
+                                                  {{ if .link }}
+                                                  </a>
+                                                  {{ end }}
                                                   <h6 class="yellow-text pt-md-3">{{ .speaker }}</h6>
                                               </li>
                                           </div>
@@ -46,7 +52,13 @@
                                       <div class="col-md-12 ps-0">
                                           <div class="timeline-box shadow">
                                               <li>
-                                                  <h3 class="timeline-head text-white text-center pt-2  fw-bold">{{ .title }}</h3>
+                                                  {{ if .link }}
+                                                  <a href="{{ .link }}" class="talk-link">
+                                                  {{ end }}
+                                                    <h3 class="timeline-head text-white text-center pt-2  fw-bold">{{ .title }}</h3>
+                                                  {{ if .link }}
+                                                  </a>
+                                                  {{ end }}
                                                   {{ if .speaker }}
                                                   <h6 class="yellow-text text-center">{{ .speaker }}</h6>
                                                   {{ end }}
