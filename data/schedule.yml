@@ -3,137 +3,361 @@ data:
   -
     date: 17th Sept
     schedule:
-      - time: 10:30 am
+      - time: 12:00 pm
         talks:
-          - title: Keynote 1
-            speaker: Luciano
-            type: keynote
+          - title: Building Powerful Interactive AI/ML web apps using Streamlit
+            speaker: Sasidhar Donaparthi
+            type: workshop
+            link: https://in.pycon.org/cfp/2021/proposals/building-powerful-interactive-aiml-web-apps-using-streamlit~e316x/
 
-      - time: 11:30 am
-        talks:
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
-          
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
+          - title: Getting Kafka-esque with Python
+            speaker: Dipen Chawla, Devesh Bajaj
+            type: workshop
+            link: https://in.pycon.org/cfp/2021/proposals/getting-kafka-esque-with-python~elYRr/
 
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
-
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
+          - title: Make your Cloud Native Python applications Kubernetes native!
+            speaker: Nabarun Pal
+            type: workshop
+            link: https://in.pycon.org/cfp/2021/proposals/make-your-cloud-native-python-applications-kubernetes-native~bmZqr/
       
-      - time: 12:30 pm
+      - time: 14:30 pm
         talks:
           - title: Break/Networking
             type: extra
 
-      - time: 2:30 pm
+      - time: 15:30 pm
         talks:
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
+          - title: IndicNLP: Natural Language Processing for Indian Languages using Python
+            speaker: Gajendra Deshpande
+            type: workshop
+            link: https://in.pycon.org/cfp/2021/proposals/indicnlp-natural-language-processing-for-indian-languages-using-python~egJZ3/
           
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
+          - title: Knowledge graph data modelling with TerminusDB
+            speaker: Cheuk Ting Ho 
+            type: workshop
+            link: https://in.pycon.org/cfp/2021/proposals/knowledge-graph-data-modelling-with-terminusdb~dJ6yP/
 
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
+          - title: Introduction to Property-Based Testing
+            speaker: Zac Hatfield-Dodds
+            type: workshop
+            link: https://in.pycon.org/cfp/2021/proposals/introduction-to-property-based-testing~elY5r/
 
   -
     date: 18th Sept
     schedule:
-      - time: 10:30 am
+      - time: 12:00 pm
         talks:
-          - title: Keynote 2
-            speaker: Luciano
-            type: keynote
+          - title: PyCon India 2021 Opening Address
+            speaker: ''
+            type: extra
+            track: all
 
-      - time: 11:30 am
-        talks:
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
-          
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
-
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
-
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
-      
       - time: 12:30 pm
+        talks:
+          - title: Keynote
+            speaker: Alolita Sharma
+            type: keynote
+            link: https://in.pycon.org/blog/2021/keynote-announcement-alolita-sharma.html
+            track: all
+
+      - time: 13:30 am
+        talks:
+          - title: Python Versions and Dependencies Made Easy
+            speaker: Sebastian
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/python-versions-and-dependencies-made-easy~ejRqP/
+            track: 1
+
+          - title: Electromechanical Platform for Reinforcement Learning Research and Evaluation
+            speaker: Kelvin Tan
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/electromechanical-platform-for-reinforcement-learning-research-and-evaluation~aOYyY/
+            track: 2
+
+          - title: Panel Discussion 1
+            speaker: ''
+            type: panel
+            link: ''
+            track: 3
+
+      - time: 14:00 am
+        talks:
+          - title: Python and the Inversion of Control
+            speaker: David Seddon 
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/python-and-the-inversion-of-control~aM8jO/
+            track: 1
+
+          - title: Writing your own Kubernetes operator and CRD in Python with kopf to enhance and harden your Kubernetes clusters
+            speaker: Yashvardhan Kukreja
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/writing-your-own-kubernetes-operator-and-crd-in-python-with-kopf-to-enhance-and-harden-your-kubernetes-clusters~azpvm/
+            track: 2
+
+          - title: Panel Discussion 1
+            speaker: ''
+            type: panel
+            link: ''
+            track: 3
+      
+      - time: 14:30 pm
         talks:
           - title: Break/Networking
             type: extra
 
-      - time: 2:30 pm
+      - time: 15:30 pm
         talks:
-          - title: Getting Started with Python
-            speaker: Evan Smith
+          - title: Writing Better Documentation for Developers
+            speaker: Meredydd Luff 
             type: talk
-          
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/writing-better-documentation-for-developers~epY8N/
+            track: 1
 
-          - title: Getting Started with Python
-            speaker: Evan Smith
+          - title: Touches of Python in Prosthetic Vision : New Generation Computer vision
+            speaker: Anustup Mukherjee
             type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/touches-of-python-in-prosthetic-vision-new-generation-computer-vision~e5yQv/
+            track: 2
+
+          - title: Who Begat Python? Knowing your Interpreter
+            speaker: Divya Goswami 
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/who-begat-python-knowing-your-interpreter~axkG3/
+            track: 3
+
+      - time: 16:00 pm
+        talks:
+          - title: A haphazard journey to a generative art twitter bot with matplotlib
+            speaker: Gautam Sisodia 
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/a-haphazard-journey-to-a-generative-art-twitter-bot-with-matplotlib~eER80/
+            track: 1
+
+          - title: On Device AI - Deep Learning on Mobile Devices
+            speaker: Sravya Yellapragada
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/on-device-ai-deep-learning-on-mobile-devices~ejRZl/
+            track: 2
+
+          - title: Type Check your Django app
+            speaker: Kracekumar Ramaraju
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/type-check-your-django-app~ejRql/
+            track: 3
+
+      - time: 16:30 pm
+        talks:
+          - title: Panel Discussion 2
+            speaker: ''
+            type: panel
+            link: ''
+            track: all
+        
+      - time: 17:30 pm
+        talks:
+          - title: Break/Networking
+            type: extra
+            track: all 
+
+      - time: 18:00 pm
+        talks:
+          - title: Lightening Talk
+            speaker: ''
+            type: talk
+            link: ''
+            track: all
+
+      - time: 18:30 pm
+        talks:
+          - title: Idiomatic Pandas: 5 Tips for Better Pandas Code
+            speaker: Matt Harrison
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/idiomatic-pandas-5-tips-for-better-pandas-code~aQW00/
+            track: 1
+
+          - title: Pointers? In My Python? It's More Likely Than You Think
+            speaker: Eli Holderness
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/pointers-in-my-python-its-more-likely-than-you-think~bo2V3/
+            track: 2
+
+          - title: Bridge the tech gap using Python
+            speaker:  Ngazetungue Muheue
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/bridge-the-tech-gap-using-python~b2k8N/
+            track: 3   
+
+      - time: 19:00 pm
+        talks:
+          - title: Keynote
+            speaker: Sebastián Ramírez
+            type: keynote
+            link: https://in.pycon.org/blog/2021/keynote-announcement-sebastian-ramirez.html
+            track: all
+
+      - time: 20:00 pm
+        talks:
+          - title: PyCon India 2021 Closing Address
+            speaker: ''
+            type: extra
+            track: all
 
   -
+-
     date: 19th Sept
     schedule:
-      - time: 10:30 am
+      - time: 12:00 pm
         talks:
-          - title: Keynote 3
-            speaker: Luciano
-            type: keynote
+          - title: PyCon India 2021 Day 2 Opening Address
+            speaker: ''
+            type: extra
+            track: all
 
-      - time: 11:30 am
-        talks:
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
-          
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
-
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
-
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
-      
       - time: 12:30 pm
+        talks:
+          - title: Keynote
+            speaker: Dr. Ajith Kumar B P
+            type: keynote
+            link: https://in.pycon.org/blog/2021/keynote-announcement-ajith-kumar.html
+            track: all
+
+      - time: 13:30 am
+        talks:
+          - title: A walk through caching patterns
+            speaker: Nicolas Frankel
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/a-walk-through-caching-patterns~dyP8E/
+            track: 1
+
+          - title: Visualisation & Underlined Psychology
+            speaker: sayantikabanik
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/visualisation-underlined-psychology~bkR8E/
+            track: 2
+
+          - title: ExpEYES - A Python powered measurement device for hands-on science education
+            speaker: jithin
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/expeyes-a-python-powered-measurement-device-for-hands-on-science-education~e731r/
+            track: 3
+
+      - time: 14:00 am
+        talks:
+          - title: Demystifying Async & Await keywords in Python and JavaScript
+            speaker: Kurian Benoy
+            type: talk
+            link: https://in.pycon.org//cfp/2021/proposals/demystifying-async-await-keywords-in-python-and-javascript~bmZOr/
+            track: 1
+
+          - title: Building Polyglot Python applications using MetaCall Core
+            speaker: Harsh Bardhan Mishra
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/building-polyglot-python-applications-using-metacall-core~av2QX/
+            track: 2
+
+          - title: Reducing technical debt for ML platforms
+            speaker: Prakshi Yadav
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/reducing-technical-debt-for-ml-platforms~bW6Pv/
+            track: 3
+      
+      - time: 14:30 pm
         talks:
           - title: Break/Networking
             type: extra
 
-      - time: 2:30 pm
+      - time: 15:30 pm
         talks:
-          - title: Getting Started with Python
-            speaker: Evan Smith
+          - title:  Exploring Network Clusters in Python
+            speaker: Anand S 
             type: talk
-          
-          - title: Getting Started with Python
-            speaker: Evan Smith
-            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/exploring-network-clusters-in-python~e312O/
+            track: 1
 
-          - title: Getting Started with Python
-            speaker: Evan Smith
+          - title: Mon School - The Joy of Programming
+            speaker: Anand Chitipothu
             type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/mon-school-the-joy-of-programming~e0R8K/
+            track: 2
+
+          - title: Hey, Python-Web-Community! What's going on?
+            speaker: Vibhu Agarwal
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/hey-python-web-community-whats-going-on~erkR4/
+            track: 3
+
+      - time: 16:00 pm
+        talks:
+          - title: Django and multi-tenancy: The isolated database approach
+            speaker: N Aditya
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/django-and-multi-tenancy-the-isolated-database-approach~dR6oO/
+            track: 1
+
+          - title: Financial Data Forecaster: Time Series Forecasting on Stock Prices and Indexes
+            speaker: anshika rajiv 
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/financial-data-forecaster-time-series-forecasting-on-stock-prices-and-indexes~dwpVM/
+            track: 2
+
+          - title: Delivering successful API integrations with documentation-driven development
+            speaker:  Jose Haro Peralta 
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/delivering-successful-api-integrations-with-documentation-driven-development~dwpmM/
+            track: 3
+
+      - time: 16:30 pm
+        talks:
+          - title: Panel Discussion 2
+            speaker: ''
+            type: panel
+            link: ''
+            track: all
+        
+      - time: 17:30 pm
+        talks:
+          - title: Break/Networking
+            type: extra
+            track: all 
+
+      - time: 18:00 pm
+        talks:
+          - title: Lightening Talk
+            speaker: ''
+            type: talk
+            link: ''
+            track: all
+
+      - time: 18:30 pm
+        talks:
+          - title: How To Log ML Experiments
+            speaker: Shagun Sodhani
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/how-to-log-ml-experiments~dJ6ZJ/
+            track: 1
+
+          - title: Is Python Worth Learning for Beginners?
+            speaker: Shawn Ray
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/is-python-worth-learning-for-beginners~aOYgL/
+            track: 2
+
+          - title: The "Pit of Success" for Object-level Permissions in Django: How to make it easy to get privacy right.
+            speaker: Madelaine Boyd
+            link: https://in.pycon.org/cfp/2021/proposals/the-pit-of-success-for-object-level-permissions-in-django-how-to-make-it-easy-to-get-privacy-right~eVOAW/
+            track: 3   
+
+      - time: 19:00 pm
+        talks:
+          - title: Keynote
+            speaker: Luciano Ramalho
+            type: keynote
+            link: https://in.pycon.org/blog/2021/keynote-announcement-luciano-ramalho.html
+            track: all
+
+      - time: 20:00 pm
+        talks:
+          - title: PyCon India 2021 Day 2 Closing Address
+            speaker: ''
+            type: extra
+            track: all
