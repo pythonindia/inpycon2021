@@ -27,7 +27,7 @@ data:
 
       - time: 15:30 pm
         talks:
-          - title: IndicNLP: Natural Language Processing for Indian Languages using Python
+          - title: "IndicNLP: Natural Language Processing for Indian Languages using Python"
             speaker: Gajendra Deshpande
             type: workshop
             link: https://in.pycon.org/cfp/2021/proposals/indicnlp-natural-language-processing-for-indian-languages-using-python~egJZ3/
@@ -76,7 +76,7 @@ data:
 
           - title: Panel Discussion 1
             speaker: ''
-            type: panel
+            type: talk
             link: ''
             track: 3
 
@@ -96,7 +96,7 @@ data:
 
           - title: Panel Discussion 1
             speaker: ''
-            type: panel
+            type: talk
             link: ''
             track: 3
       
@@ -113,7 +113,7 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/writing-better-documentation-for-developers~epY8N/
             track: 1
 
-          - title: Touches of Python in Prosthetic Vision : New Generation Computer vision
+          - title: "Touches of Python in Prosthetic Vision : New Generation Computer vision"
             speaker: Anustup Mukherjee
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/touches-of-python-in-prosthetic-vision-new-generation-computer-vision~e5yQv/
@@ -161,15 +161,15 @@ data:
 
       - time: 18:00 pm
         talks:
-          - title: Lightening Talk
+          - title: Lightning Talk
             speaker: ''
-            type: talk
+            type: extra
             link: ''
             track: all
 
       - time: 18:30 pm
         talks:
-          - title: Idiomatic Pandas: 5 Tips for Better Pandas Code
+          - title: "Idiomatic Pandas: 5 Tips for Better Pandas Code"
             speaker: Matt Harrison
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/idiomatic-pandas-5-tips-for-better-pandas-code~aQW00/
@@ -203,7 +203,6 @@ data:
             track: all
 
   -
--
     date: 19th Sept
     schedule:
       - time: 12:00 pm
@@ -288,13 +287,13 @@ data:
 
       - time: 16:00 pm
         talks:
-          - title: Django and multi-tenancy: The isolated database approach
+          - title: "Django and multi-tenancy: The isolated database approach"
             speaker: N Aditya
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/django-and-multi-tenancy-the-isolated-database-approach~dR6oO/
             track: 1
 
-          - title: Financial Data Forecaster: Time Series Forecasting on Stock Prices and Indexes
+          - title: "Financial Data Forecaster: Time Series Forecasting on Stock Prices and Indexes"
             speaker: anshika rajiv 
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/financial-data-forecaster-time-series-forecasting-on-stock-prices-and-indexes~dwpVM/
@@ -322,9 +321,9 @@ data:
 
       - time: 18:00 pm
         talks:
-          - title: Lightening Talk
+          - title: Lightning Talk
             speaker: ''
-            type: talk
+            type: extra
             link: ''
             track: all
 
@@ -342,10 +341,11 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/is-python-worth-learning-for-beginners~aOYgL/
             track: 2
 
-          - title: The "Pit of Success" for Object-level Permissions in Django: How to make it easy to get privacy right.
+          - title: "The \"Pit of Success\" for Object-level Permissions in Django: How to make it easy to get privacy right."
             speaker: Madelaine Boyd
+            type: talk
             link: https://in.pycon.org/cfp/2021/proposals/the-pit-of-success-for-object-level-permissions-in-django-how-to-make-it-easy-to-get-privacy-right~eVOAW/
-            track: 3   
+            track: 3
 
       - time: 19:00 pm
         talks:
