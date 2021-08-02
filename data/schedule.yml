@@ -3,7 +3,7 @@ data:
   -
     date: 17th Sept
     schedule:
-      - time: 12:00 pm
+      - time: 12:00
         talks:
           - title: Building Powerful Interactive AI/ML web apps using Streamlit
             speaker: Sasidhar Donaparthi
@@ -20,12 +20,12 @@ data:
             type: workshop
             link: https://in.pycon.org/cfp/2021/proposals/make-your-cloud-native-python-applications-kubernetes-native~bmZqr/
       
-      - time: 14:30 pm
+      - time: 14:30
         talks:
           - title: Break/Networking
             type: extra
 
-      - time: 15:30 pm
+      - time: 15:30
         talks:
           - title: "IndicNLP: Natural Language Processing for Indian Languages using Python"
             speaker: Gajendra Deshpande
@@ -45,14 +45,14 @@ data:
   -
     date: 18th Sept
     schedule:
-      - time: 12:00 pm
+      - time: 12:00
         talks:
           - title: PyCon India 2021 Opening Address
             speaker: ''
             type: extra
             track: all
 
-      - time: 12:30 pm
+      - time: 12:30
         talks:
           - title: Keynote
             speaker: Alolita Sharma
@@ -60,7 +60,7 @@ data:
             link: https://in.pycon.org/blog/2021/keynote-announcement-alolita-sharma.html
             track: all
 
-      - time: 13:30 am
+      - time: 13:30
         talks:
           - title: Python Versions and Dependencies Made Easy
             speaker: Sebastian
@@ -80,7 +80,7 @@ data:
             link: ''
             track: 3
 
-      - time: 14:00 am
+      - time: 14:00
         talks:
           - title: Python and the Inversion of Control
             speaker: David Seddon 
@@ -100,12 +100,12 @@ data:
             link: ''
             track: 3
       
-      - time: 14:30 pm
+      - time: 14:30
         talks:
           - title: Break/Networking
             type: extra
 
-      - time: 15:30 pm
+      - time: 15:30
         talks:
           - title: Writing Better Documentation for Developers
             speaker: Meredydd Luff 
@@ -125,7 +125,7 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/who-begat-python-knowing-your-interpreter~axkG3/
             track: 3
 
-      - time: 16:00 pm
+      - time: 16:00
         talks:
           - title: A haphazard journey to a generative art twitter bot with matplotlib
             speaker: Gautam Sisodia 
@@ -145,7 +145,7 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/type-check-your-django-app~ejRql/
             track: 3
 
-      - time: 16:30 pm
+      - time: 16:30
         talks:
           - title: Panel Discussion 2
             speaker: ''
@@ -153,13 +153,13 @@ data:
             link: ''
             track: all
         
-      - time: 17:30 pm
+      - time: 17:30
         talks:
           - title: Break/Networking
             type: extra
             track: all 
 
-      - time: 18:00 pm
+      - time: 18:00
         talks:
           - title: Lightning Talk
             speaker: ''
@@ -167,7 +167,7 @@ data:
             link: ''
             track: all
 
-      - time: 18:30 pm
+      - time: 18:30
         talks:
           - title: "Idiomatic Pandas: 5 Tips for Better Pandas Code"
             speaker: Matt Harrison
@@ -187,7 +187,7 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/bridge-the-tech-gap-using-python~b2k8N/
             track: 3   
 
-      - time: 19:00 pm
+      - time: 19:00
         talks:
           - title: Keynote
             speaker: Sebastián Ramírez
@@ -195,7 +195,7 @@ data:
             link: https://in.pycon.org/blog/2021/keynote-announcement-sebastian-ramirez.html
             track: all
 
-      - time: 20:00 pm
+      - time: 20:00
         talks:
           - title: PyCon India 2021 Closing Address
             speaker: ''
@@ -205,14 +205,14 @@ data:
   -
     date: 19th Sept
     schedule:
-      - time: 12:00 pm
+      - time: 12:00
         talks:
           - title: PyCon India 2021 Day 2 Opening Address
             speaker: ''
             type: extra
             track: all
 
-      - time: 12:30 pm
+      - time: 12:30
         talks:
           - title: Keynote
             speaker: Dr. Ajith Kumar B P
@@ -220,7 +220,7 @@ data:
             link: https://in.pycon.org/blog/2021/keynote-announcement-ajith-kumar.html
             track: all
 
-      - time: 13:30 am
+      - time: 13:30
         talks:
           - title: A walk through caching patterns
             speaker: Nicolas Frankel
@@ -240,7 +240,7 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/expeyes-a-python-powered-measurement-device-for-hands-on-science-education~e731r/
             track: 3
 
-      - time: 14:00 am
+      - time: 14:00
         talks:
           - title: Demystifying Async & Await keywords in Python and JavaScript
             speaker: Kurian Benoy
@@ -260,12 +260,12 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/reducing-technical-debt-for-ml-platforms~bW6Pv/
             track: 3
       
-      - time: 14:30 pm
+      - time: 14:30
         talks:
           - title: Break/Networking
             type: extra
 
-      - time: 15:30 pm
+      - time: 15:30
         talks:
           - title:  Exploring Network Clusters in Python
             speaker: Anand S 
@@ -285,7 +285,7 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/hey-python-web-community-whats-going-on~erkR4/
             track: 3
 
-      - time: 16:00 pm
+      - time: 16:00
         talks:
           - title: "Django and multi-tenancy: The isolated database approach"
             speaker: N Aditya
@@ -305,7 +305,7 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/delivering-successful-api-integrations-with-documentation-driven-development~dwpmM/
             track: 3
 
-      - time: 16:30 pm
+      - time: 16:30
         talks:
           - title: Panel Discussion 2
             speaker: ''
@@ -313,13 +313,13 @@ data:
             link: ''
             track: all
         
-      - time: 17:30 pm
+      - time: 17:30
         talks:
           - title: Break/Networking
             type: extra
             track: all 
 
-      - time: 18:00 pm
+      - time: 18:00
         talks:
           - title: Lightning Talk
             speaker: ''
@@ -327,7 +327,7 @@ data:
             link: ''
             track: all
 
-      - time: 18:30 pm
+      - time: 18:30
         talks:
           - title: How To Log ML Experiments
             speaker: Shagun Sodhani
@@ -347,7 +347,7 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/the-pit-of-success-for-object-level-permissions-in-django-how-to-make-it-easy-to-get-privacy-right~eVOAW/
             track: 3
 
-      - time: 19:00 pm
+      - time: 19:00
         talks:
           - title: Keynote
             speaker: Luciano Ramalho
@@ -355,7 +355,7 @@ data:
             link: https://in.pycon.org/blog/2021/keynote-announcement-luciano-ramalho.html
             track: all
 
-      - time: 20:00 pm
+      - time: 20:00
         talks:
           - title: PyCon India 2021 Day 2 Closing Address
             speaker: ''
