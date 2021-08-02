@@ -11,7 +11,7 @@
           <div class="col-md-4 col-6 mt-4">
               <div class="speaker-sec text-center">
                   <img src="{{ .image | absURL }}" class="img-fluid" alt="" title="">
-                  <a href = "{{ .link }}">
+                  <a href="{{ .link }}" class="speaker-link">
                     <h3 class="key-head text-white pt-3">{{ .name }}</h3>
                   </a>
                   <p class="key-para text-grey">{{ .affiliation | safeHTML }}</p>
