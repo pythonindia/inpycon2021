@@ -17,6 +17,6 @@ data:
     link: https://in.pycon.org/blog/2021/keynote-announcement-ajith-kumar.html
   -
     name: Luciano Ramalho
-    affiliation: Author of Fluent Python
+    affiliation: Author of Fluent Python <br/> Thoughtworks
     image: images/luciano.png
     link: https://in.pycon.org/blog/2021/keynote-announcement-luciano-ramalho.html
