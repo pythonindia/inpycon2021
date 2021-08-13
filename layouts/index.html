@@ -1,6 +1,6 @@
 
 {{ define "main"}}
-    
+
     {{ partial "sections/hero.html" (dict "hero_content" .Site.Data.hero) }}
 
     {{ partial "sections/about.html" (dict "hero_content" .Site.Data.hero) }}
@@ -25,9 +25,13 @@
         {{ partial "sections/community.html" (dict "communities" .Site.Data.communities.data "outreach_blog_link" .Site.Data.communities.outreach_blog_link "outreach_form_link" .Site.Data.communities.outreach_form_link) }}
     {{ end }}
 
-    <!-- Community Sponsors -->
-    {{ if .Site.Data.sponsors.live }}
-        {{ partial "sections/sponsors.html" (dict "sponsors" .Site.Data.sponsors.data) }}
+    <!-- In Kind Sponsors -->
+    {{ if .Site.Data.sponsors.showInKind }}
+        {{ partial "sections/sponsors.html" (dict "title" "In Kind Sponsors" "type" "in-kind" "sponsors" .Site.Data.sponsors.data) }}
     {{ end }}
-    
+
+    <!-- Community Sponsors -->
+    {{ if .Site.Data.sponsors.showCommunity }}
+        {{ partial "sections/sponsors.html" (dict "title" "Community Sponsors" "type" "community" "sponsors" .Site.Data.sponsors.data) }}
+    {{ end }}
 {{ end }}
