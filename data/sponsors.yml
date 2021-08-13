@@ -1,6 +1,11 @@
-live: true
+showCommunity: true
+showInKind: false # TODO: set to true when populating in kind sponsors
 data:
-  -
-    name: Afrost
+  - name: Afrost
     image: images/afrost.jpg
     link: https://afrost.org/
+    type: community
+  # - name: Acme Corp
+  #   image: images/acme.jpg
+  #   link: https://example.com
+  #   type: in-kind
