@@ -6,14 +6,34 @@ data:
     link: https://afrost.org/
     type: community
   - name: DeepSource
-    image: images/acme.jpg
+    image: images/deepsource.png
     link: https://deepsource.io/
     type: in-kind
+  - name: EPAM
+    image: images/epam.svg
+    link: https://www.epam.com/
+    type: in-kind
   - name: Fulfil
-    image: images/acme.jpg
+    image: images/fulfil.png
     link: https://www.fulfil.io/
     type: in-kind
   - name: IBM Quantum
-    image: images/acme.jpg
+    image: images/IBM_Quantum.png
     link: https://www.ibm.com/quantum-computing/
+    type: in-kind
+  - name: Packt
+    image: images/packt.png
+    link: https://www.packtpub.com/
+    type: in-kind
+  - name: Innovaccer
+    image: images/innovaccer.svg
+    link: https://innovaccer.com/
+    type: in-kind
+  - name: Viprush Technologies
+    image: images/viprush.png
+    link: https://viprushtech.in/
+    type: in-kind
+  - name: Toyota Connected India
+    image: images/tcin.svg
+    link: https://toyotaconnected.co.in/
     type: in-kind
