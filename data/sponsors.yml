@@ -1,11 +1,19 @@
 showCommunity: true
-showInKind: false # TODO: set to true when populating in kind sponsors
+showInKind: true
 data:
   - name: Afrost
     image: images/afrost.jpg
     link: https://afrost.org/
     type: community
-  # - name: Acme Corp
-  #   image: images/acme.jpg
-  #   link: https://example.com
-  #   type: in-kind
+  - name: DeepSource
+    image: images/acme.jpg
+    link: https://deepsource.io/
+    type: in-kind
+  - name: Fulfil
+    image: images/acme.jpg
+    link: https://www.fulfil.io/
+    type: in-kind
+  - name: IBM Quantum
+    image: images/acme.jpg
+    link: https://www.ibm.com/quantum-computing/
+    type: in-kind
