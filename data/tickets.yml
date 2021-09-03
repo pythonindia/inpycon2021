@@ -10,7 +10,7 @@ data:
 
   -
     name: Regular Ticket
-    details: Sale ends by 15 September, 2021 11:30 PM (Asia/Kolkata) OR completion of 800 tickets
+    details: Sale ends by 05 September, 2021 11:30 PM (Asia/Kolkata) OR completion of 800 tickets
     price: 600
     category: conference
     link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
@@ -32,7 +32,7 @@ data:
 
   -
     name: Combo Ticket
-    details: Workshop and Conference Ticket, Sale ends on completion of 200 tickets
+    details: Workshop and Conference Ticket, Sale ends by 05 September, 2021 11:30 PM (Asia/Kolkata)
     price: 1260
     category: workshop
     link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
