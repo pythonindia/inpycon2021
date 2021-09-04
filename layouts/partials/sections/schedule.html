@@ -8,7 +8,7 @@
               <p class="schedule-para text-grey pt-md-3">All the times mentioned in the schedule are in Indian
                   Standard time (IST) timezone.</p>
               <!--a href="" class="yellow-text white-hovertext text-decoration-none fw-bold">Download <i
-                      class="fas fa-arrow-circle-down"></i></a>
+                      class="fas fa-arrow-circle-down"></i></a> -->
 
               <!-- tabs -->
               <div class="tab-sec mt-5">
@@ -32,9 +32,25 @@
                               {{ range $i, $elem := .schedule }}
                               <div class="row event {{ if (ne $i 0) }}mt-2{{ end }}" data-date="{{ .time }}">
                                   {{ range .talks }}
-                                    {{ if (or (eq .type "talk") (eq .type "workshop")) }}
+                                    {{ if (eq .type "workshop") }}
                                       <div
                                           class="col-lg-4 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
+                                          <div class="timeline-box shadow">
+                                              <li>
+                                                  {{ if .link }}
+                                                  <a href="{{ .link }}" class="talk-link">
+                                                  {{ end }}
+                                                    <h3 class="timeline-head text-white">{{ .title }}</h3>
+                                                  {{ if .link }}
+                                                  </a>
+                                                  {{ end }}
+                                                  <h6 class="yellow-text pt-md-3">{{ .speaker }}</h6>
+                                              </li>
+                                          </div>
+                                      </div>
+                                    {{ else if (eq .type "talk") }}
+                                      <div
+                                          class="col-lg-3 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
                                           <div class="timeline-box shadow">
                                               <li>
                                                   {{ if .link }}
@@ -74,6 +90,11 @@
                   </div>
                   {{ end }}
               </div>
+              {{ if .extend }}
+                <p class="schedule-para text-grey pt-md-3">
+                    {{ .extend | safeHTML }} 
+                </p>
+              {{ end }}
           </div>
       </div>
   </div>

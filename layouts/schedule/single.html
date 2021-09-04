@@ -1,0 +1,10 @@
+{{ define "main"}}
+    <!-- schedule page section started -->
+
+    <!-- Schedule -->
+    {{ if .Site.Data.schedule.live }}
+        {{ partial "sections/schedule.html" (dict "schedules" .Site.Data.schedule.data "extend" .Site.Data.schedule.extend) }}
+    {{ end }}
+
+    <!-- about sub section ended -->
+{{ end }}

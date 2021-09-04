@@ -15,10 +15,6 @@
         {{ partial "sections/ticket.html" (dict "tickets" .Site.Data.tickets.data) }}
     {{ end }}
 
-    <!-- Schedule -->
-    {{ if .Site.Data.schedule.live }}
-        {{ partial "sections/schedule.html" (dict "schedules" .Site.Data.schedule.data) }}
-    {{ end }}
 
     <!-- Outreach Partners -->
     {{ if .Site.Data.communities.live }}
