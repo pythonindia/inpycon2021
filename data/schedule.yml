@@ -1,4 +1,6 @@
 live: true
+extend: 'Find the schedule and talks in the .Extend track 
+        <a class="text-decoration-none fw-bold  yellow-text white-hovertext" href="https://something">here</a>'
 data:
   -
     date: 17th Sept
