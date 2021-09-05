@@ -30,6 +30,7 @@ data:
     price: 800
     category: workshop
     link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
+    status: sold
 
   -
     name: Combo Ticket
