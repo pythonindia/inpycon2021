@@ -16,12 +16,12 @@ data:
     link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
     status: sold
 
-  # -
-  #   name: Late Bird Ticket
-  #   details: Sale ends by 15 September, 2021 09:00 AM (Asia/Kolkata) OR completion of 200 tickets
-  #   price: 1000
-  #   category: conference
-  #   link: ""
+  -
+    name: Late Bird Ticket
+    details: Sale ends by 15 September, 2021 09:00 AM (Asia/Kolkata) OR completion of 200 tickets
+    price: 1000
+    category: conference
+    link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
 
   # # There can be only 1 workshop ticket item right now
   -
