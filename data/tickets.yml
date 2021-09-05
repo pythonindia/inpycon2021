@@ -14,6 +14,7 @@ data:
     price: 600
     category: conference
     link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
+    status: sold
 
   # -
   #   name: Late Bird Ticket
@@ -36,6 +37,7 @@ data:
     price: 1260
     category: workshop
     link: "https://www.townscript.com/v2/e/pycon-india-2021/booking/tickets"
+    status: sold
 
   # # There can be only 1 devsprint ticket item right now
   # -
