@@ -71,11 +71,17 @@
                           <p class="rupee-violet mb-0 violet-text">₹ {{ .price }}+ <span class="rupee-head">GST</span></p>
                       </div>
                       <div class="col-lg-7 col-12 p-0">
-                          <a href="{{ .link }}" class="text-decoration-none">
-                              <div class="violet-yellow text-center mt-md-3">
-                                  Book ticket <i class="text-white fas fa-chevron-circle-right ps-2"></i>
-                              </div>
-                          </a>
+                        {{ if eq .status "sold" }}
+                        <div class="text-center mt-md-3 font-weight-bold">
+                            Sold Out
+                        </div>
+                        {{ else }}
+                        <a href="{{ .link }}" class="text-decoration-none">
+                            <div class="violet-yellow text-center mt-md-3">
+                                Book ticket <i class="text-white fas fa-chevron-circle-right ps-2"></i>
+                            </div>
+                        </a>
+                        {{ end }}
                       </div>
                   </div>
               </div>
