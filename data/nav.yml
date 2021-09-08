@@ -2,12 +2,12 @@ primary_button_text: Book Ticket
 primary_button_link: "/#tickets"
 links:
   - name: About
-    link: about/
+    link: /about/
   - name: Schedule
     link: /#schedule
   - name: CoC
-    link: coc/
+    link: /coc/
   - name: FAQ
-    link: faq/
+    link: /faq/
   - name: Blog
     link: https://in.pycon.org/blog/
