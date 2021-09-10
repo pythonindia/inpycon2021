@@ -27,11 +27,11 @@
 
     <!-- In Kind Sponsors -->
     {{ if .Site.Data.sponsors.showInKind }}
-        {{ partial "sections/sponsors.html" (dict "title" "In Kind Sponsors" "type" "in-kind" "sponsors" .Site.Data.sponsors.data) }}
+        {{ partial "sections/sponsors.html" (dict "title" "In Kind Sponsors" "type" "in-kind" "sponsors" .Site.Data.sponsors.data "snake" "true") }}
     {{ end }}
 
     <!-- Community Sponsors -->
     {{ if .Site.Data.sponsors.showCommunity }}
-        {{ partial "sections/sponsors.html" (dict "title" "Community Sponsors" "type" "community" "sponsors" .Site.Data.sponsors.data) }}
+        {{ partial "sections/sponsors.html" (dict "title" "Community Sponsors" "type" "community" "sponsors" .Site.Data.sponsors.data "snake" "false") }}
     {{ end }}
 {{ end }}
