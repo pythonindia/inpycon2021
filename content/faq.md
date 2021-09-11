@@ -39,7 +39,7 @@ There isn't any strict time requirement that needs to be fulfilled by the volunt
 
 ## Ticketing FAQ
 
-### Q. I am a speaker/volunteer at the conference. Do I need to buy a ticket?
+### Q. I am a speaker/volunteer/panelist at the conference. Do I need to buy a ticket?
 
 **Yes**. PyCon India is a conference built for the community, by the community. Everyone from the speakers to volunteers to even the organizers pays for their tickets to attend the conference. Nobody makes a dime during the whole event. All proceedings from the ticket sales go towards making the conference experience even better for everyone.
 
