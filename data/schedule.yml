@@ -1,6 +1,6 @@
 live: true
-extend: 'Find the schedule and talks in the .Extend track 
-        <a class="text-decoration-none fw-bold  yellow-text white-hovertext" href="https://something">here</a>'
+extend: 'Find the schedule for Neurodiversity and experience sharing happening at
+        <a class="text-decoration-none fw-bold  yellow-text white-hovertext" href="https://in.pycon.org/blog/2021/neurodiversity-and-experience-sharing.html">Stage 5.</a>'
 data:
   -
     date: 17th Sept
@@ -21,7 +21,7 @@ data:
             speaker: Nabarun Pal
             type: workshop
             link: https://in.pycon.org/cfp/2021/proposals/make-your-cloud-native-python-applications-kubernetes-native~bmZqr/
-      
+
       - time: 14:30
         talks:
           - title: Break/Networking
@@ -33,9 +33,9 @@ data:
             speaker: Gajendra Deshpande
             type: workshop
             link: https://in.pycon.org/cfp/2021/proposals/indicnlp-natural-language-processing-for-indian-languages-using-python~egJZ3/
-          
+
           - title: Knowledge graph data modelling with TerminusDB
-            speaker: Cheuk Ting Ho 
+            speaker: Cheuk Ting Ho
             type: workshop
             link: https://in.pycon.org/cfp/2021/proposals/knowledge-graph-data-modelling-with-terminusdb~dJ6yP/
 
@@ -49,7 +49,7 @@ data:
     schedule:
       - time: 12:00
         talks:
-          - title: PyCon India 2021 Opening Address
+          - title: Day 1 Opening Address
             speaker: ''
             type: extra
             track: all
@@ -76,18 +76,24 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/electromechanical-platform-for-reinforcement-learning-research-and-evaluation~aOYyY/
             track: 2
 
-          - title: Panel Discussion 1
-            speaker: ''
+          - title: Who Begat Python? Knowing your Interpreter
+            speaker: Divya Goswami
             type: talk
-            link: ''
+            link: https://in.pycon.org/cfp/2021/proposals/who-begat-python-knowing-your-interpreter~axkG3/
             track: 3
+
+          - title: The File-Server
+            speaker: Vipin Kumar
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/the-file-server~b4xRV/
+            track: 4
 
       - time: 14:00
         talks:
-          - title: Python and the Inversion of Control
-            speaker: David Seddon 
+          - title: ExpEYES - A Python powered measurement device for hands-on science education
+            speaker: Jithin B P
             type: talk
-            link: https://in.pycon.org/cfp/2021/proposals/python-and-the-inversion-of-control~aM8jO/
+            link: https://in.pycon.org/cfp/2021/proposals/expeyes-a-python-powered-measurement-device-for-hands-on-science-education~e731r/
             track: 1
 
           - title: Writing your own Kubernetes operator and CRD in Python with kopf to enhance and harden your Kubernetes clusters
@@ -96,12 +102,19 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/writing-your-own-kubernetes-operator-and-crd-in-python-with-kopf-to-enhance-and-harden-your-kubernetes-clusters~azpvm/
             track: 2
 
-          - title: Panel Discussion 1
-            speaker: ''
+          - title: Type Check your Django app
+            speaker: Kracekumar Ramaraju
             type: talk
-            link: ''
+            link: https://in.pycon.org/cfp/2021/proposals/type-check-your-django-app~ejRql/
             track: 3
-      
+
+          - title: "Tensorflow For the Web : Converting Python Machine Learning Models to Javascript using TFJS Converter"
+            speaker: Shivay Lamba
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/tensorflow-for-the-web-converting-python-machine-learning-models-to-javascript-using-tfjs-converter~bYEWn/
+            track: 4
+
+
       - time: 14:30
         talks:
           - title: Break/Networking
@@ -110,27 +123,27 @@ data:
       - time: 15:30
         talks:
           - title: Writing Better Documentation for Developers
-            speaker: Meredydd Luff 
+            speaker: Meredydd Luff
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/writing-better-documentation-for-developers~epY8N/
             track: 1
 
-          - title: "Touches of Python in Prosthetic Vision : New Generation Computer vision"
-            speaker: Anustup Mukherjee
+          - title: Mon School - The Joy of Programming
+            speaker: Anand Chitipothu
             type: talk
-            link: https://in.pycon.org/cfp/2021/proposals/touches-of-python-in-prosthetic-vision-new-generation-computer-vision~e5yQv/
+            link: https://in.pycon.org/cfp/2021/proposals/mon-school-the-joy-of-programming~e0R8K/
             track: 2
 
-          - title: Who Begat Python? Knowing your Interpreter
-            speaker: Divya Goswami 
+          - title: CS Education - Panel
+            speaker: Prabhu Ramchandran, Prof. Shriram Krishnamurthi, Pramode C E, Ambika Joshi
             type: talk
-            link: https://in.pycon.org/cfp/2021/proposals/who-begat-python-knowing-your-interpreter~axkG3/
+            link: https://in.pycon.org/blog/2021/cs-education-panel-discussion.html
             track: 3
 
       - time: 16:00
         talks:
           - title: A haphazard journey to a generative art twitter bot with matplotlib
-            speaker: Gautam Sisodia 
+            speaker: Gautam Sisodia
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/a-haphazard-journey-to-a-generative-art-twitter-bot-with-matplotlib~eER80/
             track: 1
@@ -141,25 +154,26 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/on-device-ai-deep-learning-on-mobile-devices~ejRZl/
             track: 2
 
-          - title: Type Check your Django app
-            speaker: Kracekumar Ramaraju
+          - title: CS Education - Panel (Cont.)
+            speaker: Prabhu Ramchandran, Prof. Shriram Krishnamurthi, Pramode C E, Ambika Joshi
             type: talk
-            link: https://in.pycon.org/cfp/2021/proposals/type-check-your-django-app~ejRql/
+            link: https://in.pycon.org/blog/2021/cs-education-panel-discussion.html
             track: 3
+
 
       - time: 16:30
         talks:
-          - title: Panel Discussion 2
-            speaker: ''
+          - title: Python in Space - Curiosity Sparks
+            speaker: Arthur Scholz, Thomas Albin, Kazunori Akiyama, Andrew Chael
             type: panel
-            link: ''
+            link: https://in.pycon.org/blog/2021/python-in-space-panel-discussion.html
             track: all
-        
+
       - time: 17:30
         talks:
           - title: Break/Networking
             type: extra
-            track: all 
+            track: all
 
       - time: 18:00
         talks:
@@ -187,7 +201,15 @@ data:
             speaker:  Ngazetungue Muheue
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/bridge-the-tech-gap-using-python~b2k8N/
-            track: 3   
+            track: 3
+
+          - title: Insights Generation - Art to Science
+            speaker: Rajneet Kaur
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/insights-generation-art-to-science~axk6q/
+            track: 4
+
+
 
       - time: 19:00
         talks:
@@ -199,7 +221,7 @@ data:
 
       - time: 20:00
         talks:
-          - title: PyCon India 2021 Closing Address
+          - title: Day 1 Closing Address
             speaker: ''
             type: extra
             track: all
@@ -209,7 +231,7 @@ data:
     schedule:
       - time: 12:00
         talks:
-          - title: PyCon India 2021 Day 2 Opening Address
+          - title: Day 2 Opening Address
             speaker: ''
             type: extra
             track: all
@@ -231,16 +253,23 @@ data:
             track: 1
 
           - title: Visualisation & Underlined Psychology
-            speaker: sayantikabanik
+            speaker: Sayantika Banik
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/visualisation-underlined-psychology~bkR8E/
             track: 2
 
-          - title: ExpEYES - A Python powered measurement device for hands-on science education
-            speaker: jithin
+          - title: Python and the Inversion of Control
+            speaker: David Seddon
             type: talk
-            link: https://in.pycon.org/cfp/2021/proposals/expeyes-a-python-powered-measurement-device-for-hands-on-science-education~e731r/
+            link: https://in.pycon.org/cfp/2021/proposals/python-and-the-inversion-of-control~aM8jO/
             track: 3
+
+          - title: Fine Grained Image Classification with Bilinear-CNN's
+            speaker: Rajesh Bhat
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/fine-grained-image-classification-with-bilinear-cnns~dNkLp/
+            track: 4
+
 
       - time: 14:00
         talks:
@@ -261,7 +290,15 @@ data:
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/reducing-technical-debt-for-ml-platforms~bW6Pv/
             track: 3
-      
+
+          - title: Path to Pythonic
+            speaker: Tushar Sadhwani
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/path-to-pythonic~e9r1Z/
+            track: 4
+
+
+
       - time: 14:30
         talks:
           - title: Break/Networking
@@ -270,15 +307,15 @@ data:
       - time: 15:30
         talks:
           - title:  Exploring Network Clusters in Python
-            speaker: Anand S 
+            speaker: Anand S
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/exploring-network-clusters-in-python~e312O/
             track: 1
 
-          - title: Mon School - The Joy of Programming
-            speaker: Anand Chitipothu
+          - title:  Open Source as a Day Job Panel
+            speaker: Nabarun Pal
             type: talk
-            link: https://in.pycon.org/cfp/2021/proposals/mon-school-the-joy-of-programming~e0R8K/
+            link: ''
             track: 2
 
           - title: Hey, Python-Web-Community! What's going on?
@@ -286,6 +323,7 @@ data:
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/hey-python-web-community-whats-going-on~erkR4/
             track: 3
+
 
       - time: 16:00
         talks:
@@ -296,30 +334,37 @@ data:
             track: 1
 
           - title: "Financial Data Forecaster: Time Series Forecasting on Stock Prices and Indexes"
-            speaker: anshika rajiv 
+            speaker: Anshika Rajiv
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/financial-data-forecaster-time-series-forecasting-on-stock-prices-and-indexes~dwpVM/
             track: 2
 
           - title: Delivering successful API integrations with documentation-driven development
-            speaker:  Jose Haro Peralta 
+            speaker:  Jose Haro Peralta
             type: talk
             link: https://in.pycon.org/cfp/2021/proposals/delivering-successful-api-integrations-with-documentation-driven-development~dwpmM/
             track: 3
 
+          - title: No Code Platform powered by Python & Django
+            speaker: Bhagvan Kommadi
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/no-code-platform-powered-by-python-django~eXDQA/
+            track: 4
+
+
       - time: 16:30
         talks:
-          - title: Panel Discussion 2
-            speaker: ''
+          - title: Diversity in Cybersecurity
+            speaker: Vandana Verma, Shira Shamban, Hitesh Dharmdasani, Judy Ngure
             type: panel
-            link: ''
+            link: https://in.pycon.org/blog/2021/diversity-in-cybersecurity-panel-discussion.html
             track: all
-        
+
       - time: 17:30
         talks:
           - title: Break/Networking
             type: extra
-            track: all 
+            track: all
 
       - time: 18:00
         talks:
@@ -349,6 +394,13 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/the-pit-of-success-for-object-level-permissions-in-django-how-to-make-it-easy-to-get-privacy-right~eVOAW/
             track: 3
 
+          - title: Building GraphQL APIs with Ariadne - a schema first approach
+            speaker: Rashmi K A
+            type: talk
+            link: https://in.pycon.org/cfp/2021/proposals/building-graphql-apis-with-ariadne-a-schema-first-approach~aKr8Y/
+            track: 4
+
+
       - time: 19:00
         talks:
           - title: Keynote
@@ -359,7 +411,7 @@ data:
 
       - time: 20:00
         talks:
-          - title: PyCon India 2021 Day 2 Closing Address
+          - title: Day 2 Closing Address
             speaker: ''
             type: extra
             track: all
