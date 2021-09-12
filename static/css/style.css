@@ -525,6 +525,10 @@ a.yellow-text:focus {
   top: 0;
 }
 
+p.schedule-para.extend-info {
+  font-size: 1.75rem;
+}
+
 @media (max-width: 767px) {
   html, body {
     overflow-x: hidden!important;
