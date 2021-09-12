@@ -31,12 +31,12 @@
                           <ul class="timeline">
                               {{ range $i, $elem := .schedule }}
                               <div class="row event {{ if (ne $i 0) }}mt-2{{ end }}" data-date="{{ .time }}">
-                                  {{ range .talks }}
+                                  {{ range $t_index, $elem := .talks }}
                                     {{ if (eq .type "workshop") }}
                                       <div
                                           class="col-lg-4 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
                                           <div class="timeline-box shadow">
-                                              <li>
+                                              <li class="d-flex flex-column" style="height: 100%">
                                                   {{ if .link }}
                                                   <a href="{{ .link }}" class="talk-link">
                                                   {{ end }}
@@ -45,6 +45,16 @@
                                                   </a>
                                                   {{ end }}
                                                   <h6 class="yellow-text pt-md-3">{{ .speaker }}</h6>
+                                                  <p class="location">
+                                                    Room: 
+                                                    <span>
+                                                        {{ if .room }}
+                                                            {{ .room }}
+                                                        {{ else }}
+                                                            Stage {{ add $t_index 1 }}
+                                                        {{ end }}
+                                                    </span>
+                                                  </p>
                                               </li>
                                           </div>
                                       </div>
@@ -52,7 +62,7 @@
                                       <div
                                           class="col-lg-3 col-12 ps-0 d-flex align-items-stretch mb-lg-0 mb-4">
                                           <div class="timeline-box shadow">
-                                              <li>
+                                              <li class="d-flex flex-column" style="height: 100%">
                                                   {{ if .link }}
                                                   <a href="{{ .link }}" class="talk-link">
                                                   {{ end }}
@@ -61,6 +71,17 @@
                                                   </a>
                                                   {{ end }}
                                                   <h6 class="yellow-text pt-md-3">{{ .speaker }}</h6>
+
+                                                  <p class="location">
+                                                      Room: 
+                                                        <span>
+                                                            {{ if .room }}
+                                                                {{ .room }}
+                                                            {{ else }}
+                                                                Stage {{ add $t_index 1 }}
+                                                            {{ end }}
+                                                        </span>
+                                                  </p>
                                               </li>
                                           </div>
                                       </div>
