@@ -3,11 +3,8 @@ primary_button_link: "/#tickets"
 links:
   - name: About
     link: about/
-  # Removes schedule nav link as the current nav
-  # code doesn't render the link well. With PR#43,
-  # this will be fixed.
-  # - name: Schedule
-  #   link: "#schedule"
+  - name: Schedule
+    link: schedule/
   - name: CoC
     link: coc/
   - name: FAQ
