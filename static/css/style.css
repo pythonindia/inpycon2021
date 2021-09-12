@@ -456,6 +456,18 @@ a.yellow-text:focus {
   color: #FFF;
 }
 
+.schedule-section .timeline .timeline-box p.location {
+  align-self:flex-end;
+  margin-top: auto;
+  padding-top: 1.5rem;
+  font-size: 0.85rem;
+  color: #cb7bff;
+}
+
+.schedule-section .timeline .timeline-box p.location span {
+  font-weight: 600;
+}
+
 .schedule-section .timeline .timeline-box a.talk-link:focus h3 {
   border: 1px solid;
 }
