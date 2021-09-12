@@ -17,7 +17,8 @@ clean:
 	rm -r ${BUILD_OUTPUT}
 
 GIT_ROOT=$(shell git rev-parse --show-toplevel)
-CALENDAR_PATH?=$(GIT_ROOT)/schedule.ics
+SCHEDULE_DATA=$(GIT_ROOT)/data/schedule.yml
+CALENDAR_PATH?=$(GIT_ROOT)/static/schedule.ics
 
 calendar-requirements:
 	pip install -r requirements.txt
@@ -25,7 +26,7 @@ calendar-requirements:
 generate-calendar: calendar-requirements $(CALENDAR_PATH)
 
 $(CALENDAR_PATH):
-	python $(GIT_ROOT)/scripts/generate_calendar.py --schedule $(GIT_ROOT)/data/schedule.yml --skip-empty > $@
+	python $(GIT_ROOT)/scripts/generate_calendar.py --schedule $(SCHEDULE_DATA) --skip-empty > $@
 
 clean-calendar: $(CALENDAR_PATH)
 	rm -rf $^
