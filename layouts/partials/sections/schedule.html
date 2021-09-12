@@ -63,7 +63,6 @@
                                                   <h6 class="yellow-text pt-md-3">{{ .speaker }}</h6>
 
                                                   <p class="location">
-                                                      Room: 
                                                         <span>
                                                             {{ if .room }}
                                                                 {{ .room }}
@@ -103,7 +102,7 @@
               </div>
               {{ if .extend }}
                 <p class="schedule-para extend-info text-grey pt-md-3">
-                    {{ .extend | safeHTML }} 
+                    {{ .extend | safeHTML }}
                 </p>
               {{ end }}
           </div>
