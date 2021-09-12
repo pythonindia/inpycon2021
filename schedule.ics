@@ -1,0 +1,532 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Writing your own Kubernetes operator and CRD in Python with kopf to enhance and harden your Kubernetes clusters - Yashvardhan Kukreja\nSpeaker: Yashvardhan Kukreja\nTrack: 2\nURL: https://in.pycon.org/cfp/2021/proposals/writing-your-own-kubernetes-operator-and-crd-in-python-with-kopf-to-enhance-and-harden-your-kubernetes-clusters~azpvm/
+DURATION:PT30M
+DTSTART:20210918T083000Z
+SUMMARY:Writing your own Kubernetes operator and CRD in Python with kopf to enhance and harden your Kubernetes clusters - Yashvardhan Kukreja
+UID:6820e7b3-4c84-46a1-aa17-d787d2575a0c@6820.org
+URL:https://in.pycon.org/cfp/2021/proposals/writing-your-own-kubernetes-operator-and-crd-in-python-with-kopf-to-enhance-and-harden-your-kubernetes-clusters~azpvm/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Electromechanical Platform for Reinforcement Learning Research and Evaluation - Kelvin Tan\nSpeaker: Kelvin Tan\nTrack: 2\nURL: https://in.pycon.org/cfp/2021/proposals/electromechanical-platform-for-reinforcement-learning-research-and-evaluation~aOYyY/
+DURATION:PT30M
+DTSTART:20210918T080000Z
+SUMMARY:Electromechanical Platform for Reinforcement Learning Research and Evaluation - Kelvin Tan
+UID:7caf78b4-20c9-446f-ba93-a853ccf0fc59@7caf.org
+URL:https://in.pycon.org/cfp/2021/proposals/electromechanical-platform-for-reinforcement-learning-research-and-evaluation~aOYyY/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Getting Kafka-esque with Python - Dipen Chawla\, Devesh Bajaj\nSpeaker: Dipen Chawla\, Devesh Bajaj\nURL: https://in.pycon.org/cfp/2021/proposals/getting-kafka-esque-with-python~elYRr/
+DURATION:PT2H30M
+DTSTART:20210917T063000Z
+SUMMARY:Getting Kafka-esque with Python - Dipen Chawla\, Devesh Bajaj
+UID:1504925d-09ea-41a9-9fd1-bfe236c95e40@1504.org
+URL:https://in.pycon.org/cfp/2021/proposals/getting-kafka-esque-with-python~elYRr/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Keynote - Sebastián Ramírez\nSpeaker: Sebastián Ramírez\nURL: https://in.pycon.org/blog/2021/keynote-announcement-sebastian-ramirez.html
+DURATION:PT1H
+DTSTART:20210918T133000Z
+SUMMARY:Keynote - Sebastián Ramírez
+UID:71dd93bb-0366-4d62-9b1b-f5743f5f1a8b@71dd.org
+URL:https://in.pycon.org/blog/2021/keynote-announcement-sebastian-ramirez.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Open Source as a Day Job Panel - Nabarun Pal\nSpeaker: Nabarun Pal\nTrack: 2\n
+DURATION:PT30M
+DTSTART:20210919T100000Z
+SUMMARY:Open Source as a Day Job Panel - Nabarun Pal
+UID:db7ee361-30d9-4a29-908c-e43e3c906de8@db7e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:ExpEYES - A Python powered measurement device for hands-on science education - Jithin B P\nSpeaker: Jithin B P\nTrack: 1\nURL: https://in.pycon.org/cfp/2021/proposals/expeyes-a-python-powered-measurement-device-for-hands-on-science-education~e731r/
+DURATION:PT30M
+DTSTART:20210918T083000Z
+SUMMARY:ExpEYES - A Python powered measurement device for hands-on science education - Jithin B P
+UID:dcd5f471-be95-4f67-b9bb-247387a090be@dcd5.org
+URL:https://in.pycon.org/cfp/2021/proposals/expeyes-a-python-powered-measurement-device-for-hands-on-science-education~e731r/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Lightning Talk\n
+DURATION:PT30M
+DTSTART:20210918T123000Z
+SUMMARY:Lightning Talk
+UID:dc12d79b-5430-455c-ad31-bc7ed9a9427c@dc12.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Pointers? In My Python? It's More Likely Than You Think - Eli Holderness\nSpeaker: Eli Holderness\nTrack: 2\nURL: https://in.pycon.org/cfp/2021/proposals/pointers-in-my-python-its-more-likely-than-you-think~bo2V3/
+DURATION:PT30M
+DTSTART:20210918T130000Z
+SUMMARY:Pointers? In My Python? It's More Likely Than You Think - Eli Holderness
+UID:22fee671-9882-4df2-92e3-2307b83ba281@22fe.org
+URL:https://in.pycon.org/cfp/2021/proposals/pointers-in-my-python-its-more-likely-than-you-think~bo2V3/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Django and multi-tenancy: The isolated database approach - N Aditya\nSpeaker: N Aditya\nTrack: 1\nURL: https://in.pycon.org/cfp/2021/proposals/django-and-multi-tenancy-the-isolated-database-approach~dR6oO/
+DURATION:PT30M
+DTSTART:20210919T103000Z
+SUMMARY:Django and multi-tenancy: The isolated database approach - N Aditya
+UID:8477a618-d967-44c4-9e53-428355574e46@8477.org
+URL:https://in.pycon.org/cfp/2021/proposals/django-and-multi-tenancy-the-isolated-database-approach~dR6oO/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Reducing technical debt for ML platforms - Prakshi Yadav\nSpeaker: Prakshi Yadav\nTrack: 3\nURL: https://in.pycon.org/cfp/2021/proposals/reducing-technical-debt-for-ml-platforms~bW6Pv/
+DURATION:PT30M
+DTSTART:20210919T083000Z
+SUMMARY:Reducing technical debt for ML platforms - Prakshi Yadav
+UID:b6c034ef-429d-4a04-bd8e-9d8fde2ef89e@b6c0.org
+URL:https://in.pycon.org/cfp/2021/proposals/reducing-technical-debt-for-ml-platforms~bW6Pv/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Make your Cloud Native Python applications Kubernetes native! - Nabarun Pal\nSpeaker: Nabarun Pal\nURL: https://in.pycon.org/cfp/2021/proposals/make-your-cloud-native-python-applications-kubernetes-native~bmZqr/
+DURATION:PT2H30M
+DTSTART:20210917T063000Z
+SUMMARY:Make your Cloud Native Python applications Kubernetes native! - Nabarun Pal
+UID:55e3d00d-958f-4a7a-8aba-9a33c3a28395@55e3.org
+URL:https://in.pycon.org/cfp/2021/proposals/make-your-cloud-native-python-applications-kubernetes-native~bmZqr/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Keynote - Dr. Ajith Kumar B P\nSpeaker: Dr. Ajith Kumar B P\nURL: https://in.pycon.org/blog/2021/keynote-announcement-ajith-kumar.html
+DURATION:PT1H
+DTSTART:20210919T070000Z
+SUMMARY:Keynote - Dr. Ajith Kumar B P
+UID:e907e40d-6c8f-4d7b-9ac9-f6c42f842637@e907.org
+URL:https://in.pycon.org/blog/2021/keynote-announcement-ajith-kumar.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Demystifying Async & Await keywords in Python and JavaScript - Kurian Benoy\nSpeaker: Kurian Benoy\nTrack: 1\nURL: https://in.pycon.org//cfp/2021/proposals/demystifying-async-await-keywords-in-python-and-javascript~bmZOr/
+DURATION:PT30M
+DTSTART:20210919T083000Z
+SUMMARY:Demystifying Async & Await keywords in Python and JavaScript - Kurian Benoy
+UID:54dfc4de-693a-4fd3-a6aa-b540ed5b0476@54df.org
+URL:https://in.pycon.org//cfp/2021/proposals/demystifying-async-await-keywords-in-python-and-javascript~bmZOr/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:How To Log ML Experiments - Shagun Sodhani\nSpeaker: Shagun Sodhani\nTrack: 1\nURL: https://in.pycon.org/cfp/2021/proposals/how-to-log-ml-experiments~dJ6ZJ/
+DURATION:PT30M
+DTSTART:20210919T130000Z
+SUMMARY:How To Log ML Experiments - Shagun Sodhani
+UID:8ad1b323-1938-49ca-b499-d6bcdf107d23@8ad1.org
+URL:https://in.pycon.org/cfp/2021/proposals/how-to-log-ml-experiments~dJ6ZJ/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Financial Data Forecaster: Time Series Forecasting on Stock Prices and Indexes - Anshika Rajiv\nSpeaker: Anshika Rajiv\nTrack: 2\nURL: https://in.pycon.org/cfp/2021/proposals/financial-data-forecaster-time-series-forecasting-on-stock-prices-and-indexes~dwpVM/
+DURATION:PT30M
+DTSTART:20210919T103000Z
+SUMMARY:Financial Data Forecaster: Time Series Forecasting on Stock Prices and Indexes - Anshika Rajiv
+UID:72635c0c-2e89-40b0-ad77-df14aa733976@7263.org
+URL:https://in.pycon.org/cfp/2021/proposals/financial-data-forecaster-time-series-forecasting-on-stock-prices-and-indexes~dwpVM/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Keynote - Luciano Ramalho\nSpeaker: Luciano Ramalho\nURL: https://in.pycon.org/blog/2021/keynote-announcement-luciano-ramalho.html
+DURATION:PT1H
+DTSTART:20210919T133000Z
+SUMMARY:Keynote - Luciano Ramalho
+UID:5d6be987-6b47-41fa-9b97-c262635984d2@5d6b.org
+URL:https://in.pycon.org/blog/2021/keynote-announcement-luciano-ramalho.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:No Code Platform powered by Python & Django - Bhagvan Kommadi\nSpeaker: Bhagvan Kommadi\nTrack: 4\nURL: https://in.pycon.org/cfp/2021/proposals/no-code-platform-powered-by-python-django~eXDQA/
+DURATION:PT30M
+DTSTART:20210919T103000Z
+SUMMARY:No Code Platform powered by Python & Django - Bhagvan Kommadi
+UID:85b2b95b-3cd8-4d24-9912-987c78d254f3@85b2.org
+URL:https://in.pycon.org/cfp/2021/proposals/no-code-platform-powered-by-python-django~eXDQA/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:The "Pit of Success" for Object-level Permissions in Django: How to make it easy to get privacy right. - Madelaine Boyd\nSpeaker: Madelaine Boyd\nTrack: 3\nURL: https://in.pycon.org/cfp/2021/proposals/the-pit-of-success-for-object-level-permissions-in-django-how-to-make-it-easy-to-get-privacy-right~eVOAW/
+DURATION:PT30M
+DTSTART:20210919T130000Z
+SUMMARY:The "Pit of Success" for Object-level Permissions in Django: How to make it easy to get privacy right. - Madelaine Boyd
+UID:814d6a3a-5a00-492e-bc4e-48f5ad1233be@814d.org
+URL:https://in.pycon.org/cfp/2021/proposals/the-pit-of-success-for-object-level-permissions-in-django-how-to-make-it-easy-to-get-privacy-right~eVOAW/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Introduction to Property-Based Testing - Zac Hatfield-Dodds\nSpeaker: Zac Hatfield-Dodds\nURL: https://in.pycon.org/cfp/2021/proposals/introduction-to-property-based-testing~elY5r/
+DURATION:PT2H30M
+DTSTART:20210917T100000Z
+SUMMARY:Introduction to Property-Based Testing - Zac Hatfield-Dodds
+UID:bad8c821-8d23-4ae1-ba96-4e40fe0ebfb8@bad8.org
+URL:https://in.pycon.org/cfp/2021/proposals/introduction-to-property-based-testing~elY5r/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Delivering successful API integrations with documentation-driven development - Jose Haro Peralta\nSpeaker: Jose Haro Peralta\nTrack: 3\nURL: https://in.pycon.org/cfp/2021/proposals/delivering-successful-api-integrations-with-documentation-driven-development~dwpmM/
+DURATION:PT30M
+DTSTART:20210919T103000Z
+SUMMARY:Delivering successful API integrations with documentation-driven development - Jose Haro Peralta
+UID:0497dd28-db7d-4026-a59b-85074a961f5f@0497.org
+URL:https://in.pycon.org/cfp/2021/proposals/delivering-successful-api-integrations-with-documentation-driven-development~dwpmM/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Keynote - Alolita Sharma\nSpeaker: Alolita Sharma\nURL: https://in.pycon.org/blog/2021/keynote-announcement-alolita-sharma.html
+DURATION:PT1H
+DTSTART:20210918T070000Z
+SUMMARY:Keynote - Alolita Sharma
+UID:e67c9e2c-8464-492a-bc8c-0cff908a5bb7@e67c.org
+URL:https://in.pycon.org/blog/2021/keynote-announcement-alolita-sharma.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Type Check your Django app - Kracekumar Ramaraju\nSpeaker: Kracekumar Ramaraju\nTrack: 3\nURL: https://in.pycon.org/cfp/2021/proposals/type-check-your-django-app~ejRql/
+DURATION:PT30M
+DTSTART:20210918T083000Z
+SUMMARY:Type Check your Django app - Kracekumar Ramaraju
+UID:5f7816b4-ad64-41db-9722-44ddff001481@5f78.org
+URL:https://in.pycon.org/cfp/2021/proposals/type-check-your-django-app~ejRql/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Insights Generation - Art to Science - Rajneet Kaur\nSpeaker: Rajneet Kaur\nTrack: 4\nURL: https://in.pycon.org/cfp/2021/proposals/insights-generation-art-to-science~axk6q/
+DURATION:PT30M
+DTSTART:20210918T130000Z
+SUMMARY:Insights Generation - Art to Science - Rajneet Kaur
+UID:fd904a62-e5b7-4b69-be7d-8e48fe7b4dcd@fd90.org
+URL:https://in.pycon.org/cfp/2021/proposals/insights-generation-art-to-science~axk6q/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Python Versions and Dependencies Made Easy - Sebastian\nSpeaker: Sebastian\nTrack: 1\nURL: https://in.pycon.org/cfp/2021/proposals/python-versions-and-dependencies-made-easy~ejRqP/
+DURATION:PT30M
+DTSTART:20210918T080000Z
+SUMMARY:Python Versions and Dependencies Made Easy - Sebastian
+UID:5969fa05-64f5-4073-b32f-85e099a6115a@5969.org
+URL:https://in.pycon.org/cfp/2021/proposals/python-versions-and-dependencies-made-easy~ejRqP/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Building Powerful Interactive AI/ML web apps using Streamlit - Sasidhar Donaparthi\nSpeaker: Sasidhar Donaparthi\nURL: https://in.pycon.org/cfp/2021/proposals/building-powerful-interactive-aiml-web-apps-using-streamlit~e316x/
+DURATION:PT2H30M
+DTSTART:20210917T063000Z
+SUMMARY:Building Powerful Interactive AI/ML web apps using Streamlit - Sasidhar Donaparthi
+UID:7fe163c7-4259-4124-9db5-3fe36c91eca2@7fe1.org
+URL:https://in.pycon.org/cfp/2021/proposals/building-powerful-interactive-aiml-web-apps-using-streamlit~e316x/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Building Polyglot Python applications using MetaCall Core - Harsh Bardhan Mishra\nSpeaker: Harsh Bardhan Mishra\nTrack: 2\nURL: https://in.pycon.org/cfp/2021/proposals/building-polyglot-python-applications-using-metacall-core~av2QX/
+DURATION:PT30M
+DTSTART:20210919T083000Z
+SUMMARY:Building Polyglot Python applications using MetaCall Core - Harsh Bardhan Mishra
+UID:78d5f12a-73d1-44a7-a772-d577bc78a0fe@78d5.org
+URL:https://in.pycon.org/cfp/2021/proposals/building-polyglot-python-applications-using-metacall-core~av2QX/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Path to Pythonic - Tushar Sadhwani\nSpeaker: Tushar Sadhwani\nTrack: 4\nURL: https://in.pycon.org/cfp/2021/proposals/path-to-pythonic~e9r1Z/
+DURATION:PT30M
+DTSTART:20210919T083000Z
+SUMMARY:Path to Pythonic - Tushar Sadhwani
+UID:ead63483-03b8-4a87-ad0a-a05eb5ccf748@ead6.org
+URL:https://in.pycon.org/cfp/2021/proposals/path-to-pythonic~e9r1Z/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Break/Networking\n
+DURATION:PT30M
+DTSTART:20210917T090000Z
+SUMMARY:Break/Networking
+UID:30123007-3fdd-41fa-9934-727b2b079d12@3012.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Day 1 Closing Address\n
+DURATION:PT30M
+DTSTART:20210918T143000Z
+SUMMARY:Day 1 Closing Address
+UID:015b0313-95b7-4dc9-b2d4-1c7a95c52d69@015b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Lightning Talk\n
+DURATION:PT30M
+DTSTART:20210919T123000Z
+SUMMARY:Lightning Talk
+UID:d41f86af-4042-4076-bffc-f5d84cef0ad7@d41f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Python in Space - Curiosity Sparks - Arthur Scholz\, Thomas Albin\, Kazunori Akiyama\, Andrew Chael\nSpeaker: Arthur Scholz\, Thomas Albin\, Kazunori Akiyama\, Andrew Chael\nURL: https://in.pycon.org/blog/2021/python-in-space-panel-discussion.html
+DURATION:PT1H
+DTSTART:20210918T110000Z
+SUMMARY:Python in Space - Curiosity Sparks - Arthur Scholz\, Thomas Albin\, Kazunori Akiyama\, Andrew Chael
+UID:eb214af8-34d3-487a-8fc6-40d453abe9a0@eb21.org
+URL:https://in.pycon.org/blog/2021/python-in-space-panel-discussion.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Visualisation & Underlined Psychology - Sayantika Banik\nSpeaker: Sayantika Banik\nTrack: 2\nURL: https://in.pycon.org/cfp/2021/proposals/visualisation-underlined-psychology~bkR8E/
+DURATION:PT30M
+DTSTART:20210919T080000Z
+SUMMARY:Visualisation & Underlined Psychology - Sayantika Banik
+UID:892e714d-9f16-4b55-9d42-9fe418980776@892e.org
+URL:https://in.pycon.org/cfp/2021/proposals/visualisation-underlined-psychology~bkR8E/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Break/Networking\n
+DURATION:PT1H
+DTSTART:20210918T090000Z
+SUMMARY:Break/Networking
+UID:8baadccd-4390-4e3a-a5a2-f7417e825e04@8baa.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Mon School - The Joy of Programming - Anand Chitipothu\nSpeaker: Anand Chitipothu\nTrack: 2\nURL: https://in.pycon.org/cfp/2021/proposals/mon-school-the-joy-of-programming~e0R8K/
+DURATION:PT30M
+DTSTART:20210918T100000Z
+SUMMARY:Mon School - The Joy of Programming - Anand Chitipothu
+UID:9cd92464-2c29-4d32-ae26-183172545003@9cd9.org
+URL:https://in.pycon.org/cfp/2021/proposals/mon-school-the-joy-of-programming~e0R8K/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:On Device AI - Deep Learning on Mobile Devices - Sravya Yellapragada\nSpeaker: Sravya Yellapragada\nTrack: 2\nURL: https://in.pycon.org/cfp/2021/proposals/on-device-ai-deep-learning-on-mobile-devices~ejRZl/
+DURATION:PT30M
+DTSTART:20210918T103000Z
+SUMMARY:On Device AI - Deep Learning on Mobile Devices - Sravya Yellapragada
+UID:aa0f2898-ff51-4133-9cd8-e658ba713992@aa0f.org
+URL:https://in.pycon.org/cfp/2021/proposals/on-device-ai-deep-learning-on-mobile-devices~ejRZl/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Tensorflow For the Web : Converting Python Machine Learning Models to Javascript using TFJS Converter - Shivay Lamba\nSpeaker: Shivay Lamba\nTrack: 4\nURL: https://in.pycon.org/cfp/2021/proposals/tensorflow-for-the-web-converting-python-machine-learning-models-to-javascript-using-tfjs-converter~bYEWn/
+DURATION:PT30M
+DTSTART:20210918T083000Z
+SUMMARY:Tensorflow For the Web : Converting Python Machine Learning Models to Javascript using TFJS Converter - Shivay Lamba
+UID:1b3a77aa-2866-4e58-bcc3-213631d4ce48@1b3a.org
+URL:https://in.pycon.org/cfp/2021/proposals/tensorflow-for-the-web-converting-python-machine-learning-models-to-javascript-using-tfjs-converter~bYEWn/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Building GraphQL APIs with Ariadne - a schema first approach - Rashmi K A\nSpeaker: Rashmi K A\nTrack: 4\nURL: https://in.pycon.org/cfp/2021/proposals/building-graphql-apis-with-ariadne-a-schema-first-approach~aKr8Y/
+DURATION:PT30M
+DTSTART:20210919T130000Z
+SUMMARY:Building GraphQL APIs with Ariadne - a schema first approach - Rashmi K A
+UID:3f13abbf-d190-473f-b8c0-6d9574af8715@3f13.org
+URL:https://in.pycon.org/cfp/2021/proposals/building-graphql-apis-with-ariadne-a-schema-first-approach~aKr8Y/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:A haphazard journey to a generative art twitter bot with matplotlib - Gautam Sisodia\nSpeaker: Gautam Sisodia\nTrack: 1\nURL: https://in.pycon.org/cfp/2021/proposals/a-haphazard-journey-to-a-generative-art-twitter-bot-with-matplotlib~eER80/
+DURATION:PT30M
+DTSTART:20210918T103000Z
+SUMMARY:A haphazard journey to a generative art twitter bot with matplotlib - Gautam Sisodia
+UID:bb2e1451-716a-4a5f-99b1-837232bdeabf@bb2e.org
+URL:https://in.pycon.org/cfp/2021/proposals/a-haphazard-journey-to-a-generative-art-twitter-bot-with-matplotlib~eER80/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:The File-Server - Vipin Kumar\nSpeaker: Vipin Kumar\nTrack: 4\nURL: https://in.pycon.org/cfp/2021/proposals/the-file-server~b4xRV/
+DURATION:PT30M
+DTSTART:20210918T080000Z
+SUMMARY:The File-Server - Vipin Kumar
+UID:cd09c3d2-af63-4469-bf45-f30b589ca510@cd09.org
+URL:https://in.pycon.org/cfp/2021/proposals/the-file-server~b4xRV/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Idiomatic Pandas: 5 Tips for Better Pandas Code - Matt Harrison\nSpeaker: Matt Harrison\nTrack: 1\nURL: https://in.pycon.org/cfp/2021/proposals/idiomatic-pandas-5-tips-for-better-pandas-code~aQW00/
+DURATION:PT30M
+DTSTART:20210918T130000Z
+SUMMARY:Idiomatic Pandas: 5 Tips for Better Pandas Code - Matt Harrison
+UID:8932a12a-f0fb-426c-9d19-eebbf9250273@8932.org
+URL:https://in.pycon.org/cfp/2021/proposals/idiomatic-pandas-5-tips-for-better-pandas-code~aQW00/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:CS Education - Panel - Prabhu Ramchandran\, Prof. Shriram Krishnamurthi\, Pramode C E\, Ambika Joshi\nSpeaker: Prabhu Ramchandran\, Prof. Shriram Krishnamurthi\, Pramode C E\, Ambika Joshi\nTrack: 3\nURL: https://in.pycon.org/blog/2021/cs-education-panel-discussion.html
+DURATION:PT30M
+DTSTART:20210918T100000Z
+SUMMARY:CS Education - Panel - Prabhu Ramchandran\, Prof. Shriram Krishnamurthi\, Pramode C E\, Ambika Joshi
+UID:57d0b92b-173b-40e4-a7d8-598724738c68@57d0.org
+URL:https://in.pycon.org/blog/2021/cs-education-panel-discussion.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Exploring Network Clusters in Python - Anand S\nSpeaker: Anand S\nTrack: 1\nURL: https://in.pycon.org/cfp/2021/proposals/exploring-network-clusters-in-python~e312O/
+DURATION:PT30M
+DTSTART:20210919T100000Z
+SUMMARY:Exploring Network Clusters in Python - Anand S
+UID:93892e9c-7593-497d-b33d-c8c0462fb49c@9389.org
+URL:https://in.pycon.org/cfp/2021/proposals/exploring-network-clusters-in-python~e312O/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:IndicNLP: Natural Language Processing for Indian Languages using Python - Gajendra Deshpande\nSpeaker: Gajendra Deshpande\nURL: https://in.pycon.org/cfp/2021/proposals/indicnlp-natural-language-processing-for-indian-languages-using-python~egJZ3/
+DURATION:PT2H30M
+DTSTART:20210917T100000Z
+SUMMARY:IndicNLP: Natural Language Processing for Indian Languages using Python - Gajendra Deshpande
+UID:da8b7e38-ea9e-4603-856a-2402fd3fd6b6@da8b.org
+URL:https://in.pycon.org/cfp/2021/proposals/indicnlp-natural-language-processing-for-indian-languages-using-python~egJZ3/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Fine Grained Image Classification with Bilinear-CNN's - Rajesh Bhat\nSpeaker: Rajesh Bhat\nTrack: 4\nURL: https://in.pycon.org/cfp/2021/proposals/fine-grained-image-classification-with-bilinear-cnns~dNkLp/
+DURATION:PT30M
+DTSTART:20210919T080000Z
+SUMMARY:Fine Grained Image Classification with Bilinear-CNN's - Rajesh Bhat
+UID:f8d66206-0c3f-4cd6-83ee-93df516745a1@f8d6.org
+URL:https://in.pycon.org/cfp/2021/proposals/fine-grained-image-classification-with-bilinear-cnns~dNkLp/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Who Begat Python? Knowing your Interpreter - Divya Goswami\nSpeaker: Divya Goswami\nTrack: 3\nURL: https://in.pycon.org/cfp/2021/proposals/who-begat-python-knowing-your-interpreter~axkG3/
+DURATION:PT30M
+DTSTART:20210918T080000Z
+SUMMARY:Who Begat Python? Knowing your Interpreter - Divya Goswami
+UID:4d3a5665-0975-43c3-a661-f72a388df40e@4d3a.org
+URL:https://in.pycon.org/cfp/2021/proposals/who-begat-python-knowing-your-interpreter~axkG3/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Knowledge graph data modelling with TerminusDB - Cheuk Ting Ho\nSpeaker: Cheuk Ting Ho\nURL: https://in.pycon.org/cfp/2021/proposals/knowledge-graph-data-modelling-with-terminusdb~dJ6yP/
+DURATION:PT2H30M
+DTSTART:20210917T100000Z
+SUMMARY:Knowledge graph data modelling with TerminusDB - Cheuk Ting Ho
+UID:abb6b845-e246-4687-9241-23b2862228c9@abb6.org
+URL:https://in.pycon.org/cfp/2021/proposals/knowledge-graph-data-modelling-with-terminusdb~dJ6yP/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Bridge the tech gap using Python - Ngazetungue Muheue\nSpeaker: Ngazetungue Muheue\nTrack: 3\nURL: https://in.pycon.org/cfp/2021/proposals/bridge-the-tech-gap-using-python~b2k8N/
+DURATION:PT30M
+DTSTART:20210918T130000Z
+SUMMARY:Bridge the tech gap using Python - Ngazetungue Muheue
+UID:f2ad6846-513c-4b58-a471-0a46fd498c8f@f2ad.org
+URL:https://in.pycon.org/cfp/2021/proposals/bridge-the-tech-gap-using-python~b2k8N/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Break/Networking\n
+DURATION:PT1H
+DTSTART:20210919T090000Z
+SUMMARY:Break/Networking
+UID:8cff6dca-a373-4326-934d-093e0df4a3fd@8cff.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:CS Education - Panel (Cont.) - Prabhu Ramchandran\, Prof. Shriram Krishnamurthi\, Pramode C E\, Ambika Joshi\nSpeaker: Prabhu Ramchandran\, Prof. Shriram Krishnamurthi\, Pramode C E\, Ambika Joshi\nTrack: 3\nURL: https://in.pycon.org/blog/2021/cs-education-panel-discussion.html
+DURATION:PT30M
+DTSTART:20210918T103000Z
+SUMMARY:CS Education - Panel (Cont.) - Prabhu Ramchandran\, Prof. Shriram Krishnamurthi\, Pramode C E\, Ambika Joshi
+UID:ad3e546a-1109-4dfb-b830-82067dcced7b@ad3e.org
+URL:https://in.pycon.org/blog/2021/cs-education-panel-discussion.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Python and the Inversion of Control - David Seddon\nSpeaker: David Seddon\nTrack: 3\nURL: https://in.pycon.org/cfp/2021/proposals/python-and-the-inversion-of-control~aM8jO/
+DURATION:PT30M
+DTSTART:20210919T080000Z
+SUMMARY:Python and the Inversion of Control - David Seddon
+UID:ef518601-0d0e-41ff-ac57-381afa35c40d@ef51.org
+URL:https://in.pycon.org/cfp/2021/proposals/python-and-the-inversion-of-control~aM8jO/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:A walk through caching patterns - Nicolas Frankel\nSpeaker: Nicolas Frankel\nTrack: 1\nURL: https://in.pycon.org/cfp/2021/proposals/a-walk-through-caching-patterns~dyP8E/
+DURATION:PT30M
+DTSTART:20210919T080000Z
+SUMMARY:A walk through caching patterns - Nicolas Frankel
+UID:4c5f57ed-ffbf-43b4-8c46-71763f28ecf6@4c5f.org
+URL:https://in.pycon.org/cfp/2021/proposals/a-walk-through-caching-patterns~dyP8E/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Day 1 Opening Address\n
+DURATION:PT30M
+DTSTART:20210918T063000Z
+SUMMARY:Day 1 Opening Address
+UID:4e7822c9-0f88-4976-923a-f5cf5b51165f@4e78.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Break/Networking\n
+DURATION:PT30M
+DTSTART:20210919T120000Z
+SUMMARY:Break/Networking
+UID:a7be454d-848a-49d1-ad96-ab84e996e7e7@a7be.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Day 2 Closing Address\n
+DURATION:PT30M
+DTSTART:20210919T143000Z
+SUMMARY:Day 2 Closing Address
+UID:4c2414d4-3bf3-42fa-bb01-597a42cd10f9@4c24.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Is Python Worth Learning for Beginners? - Shawn Ray\nSpeaker: Shawn Ray\nTrack: 2\nURL: https://in.pycon.org/cfp/2021/proposals/is-python-worth-learning-for-beginners~aOYgL/
+DURATION:PT30M
+DTSTART:20210919T130000Z
+SUMMARY:Is Python Worth Learning for Beginners? - Shawn Ray
+UID:571fc802-fbb6-483a-b6ab-ab24129ef3f7@571f.org
+URL:https://in.pycon.org/cfp/2021/proposals/is-python-worth-learning-for-beginners~aOYgL/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Day 2 Opening Address\n
+DURATION:PT30M
+DTSTART:20210919T063000Z
+SUMMARY:Day 2 Opening Address
+UID:9105b7c4-1454-48a9-83ab-3329331be258@9105.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Hey\, Python-Web-Community! What's going on? - Vibhu Agarwal\nSpeaker: Vibhu Agarwal\nTrack: 3\nURL: https://in.pycon.org/cfp/2021/proposals/hey-python-web-community-whats-going-on~erkR4/
+DURATION:PT30M
+DTSTART:20210919T100000Z
+SUMMARY:Hey\, Python-Web-Community! What's going on? - Vibhu Agarwal
+UID:b0ef76ef-2088-4e11-aee0-c71264e410c0@b0ef.org
+URL:https://in.pycon.org/cfp/2021/proposals/hey-python-web-community-whats-going-on~erkR4/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Writing Better Documentation for Developers - Meredydd Luff\nSpeaker: Meredydd Luff\nTrack: 1\nURL: https://in.pycon.org/cfp/2021/proposals/writing-better-documentation-for-developers~epY8N/
+DURATION:PT30M
+DTSTART:20210918T100000Z
+SUMMARY:Writing Better Documentation for Developers - Meredydd Luff
+UID:a8b8ae53-eba1-4c97-929c-2d94e064f0a5@a8b8.org
+URL:https://in.pycon.org/cfp/2021/proposals/writing-better-documentation-for-developers~epY8N/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Diversity in Cybersecurity - Vandana Verma\, Shira Shamban\, Hitesh Dharmdasani\, Judy Ngure\nSpeaker: Vandana Verma\, Shira Shamban\, Hitesh Dharmdasani\, Judy Ngure\nURL: https://in.pycon.org/blog/2021/diversity-in-cybersecurity-panel-discussion.html
+DURATION:PT30M
+DTSTART:20210919T110000Z
+SUMMARY:Diversity in Cybersecurity - Vandana Verma\, Shira Shamban\, Hitesh Dharmdasani\, Judy Ngure
+UID:723a2b51-40e7-4566-a79a-4f932305e153@723a.org
+URL:https://in.pycon.org/blog/2021/diversity-in-cybersecurity-panel-discussion.html
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210912T204119Z
+DESCRIPTION:Break/Networking\n
+DURATION:PT30M
+DTSTART:20210918T120000Z
+SUMMARY:Break/Networking
+UID:6a4294f5-eb7e-443e-b078-0ef81101fa0e@6a42.org
+END:VEVENT
+END:VCALENDAR
