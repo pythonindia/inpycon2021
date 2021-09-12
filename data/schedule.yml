@@ -18,10 +18,10 @@ data:
             type: workshop
             link: https://in.pycon.org/cfp/2021/proposals/getting-kafka-esque-with-python~elYRr/
 
-          - title: Make your Cloud Native Python applications Kubernetes native!
+          - title: Make your Python applications Kubernetes native!
             speaker: Nabarun Pal
             type: workshop
-            link: https://in.pycon.org/cfp/2021/proposals/make-your-cloud-native-python-applications-kubernetes-native~bmZqr/
+            link: https://in.pycon.org/cfp/2021/proposals/make-your-python-applications-kubernetes-native~bmZqr/
 
       - time: "14:30"
         duration: 30

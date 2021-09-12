@@ -2,7 +2,7 @@ live: true
 data:
   -
     name: Alolita Sharma
-    affiliation: Principal Technologist,<br/> Amazon Web Services Unicode Consortium
+    affiliation: Amazon Web Services<br/>Unicode Consortium
     image: images/s1.png
     link: https://in.pycon.org/blog/2021/keynote-announcement-alolita-sharma.html
   -
