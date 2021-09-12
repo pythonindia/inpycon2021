@@ -3,9 +3,10 @@ extend: 'Find the schedule for Neurodiversity and experience sharing happening a
         <a class="text-decoration-none fw-bold  yellow-text white-hovertext" href="https://in.pycon.org/blog/2021/neurodiversity-and-experience-sharing.html">Stage 5.</a>'
 data:
   -
-    date: 17th Sept
+    date: 17th Sep
     schedule:
-      - time: 12:00
+      - time: "12:00"
+        duration: 150
         talks:
           - title: Building Powerful Interactive AI/ML web apps using Streamlit
             speaker: Sasidhar Donaparthi
@@ -22,12 +23,14 @@ data:
             type: workshop
             link: https://in.pycon.org/cfp/2021/proposals/make-your-cloud-native-python-applications-kubernetes-native~bmZqr/
 
-      - time: 14:30
+      - time: "14:30"
+        duration: 30
         talks:
           - title: Break/Networking
             type: extra
 
-      - time: 15:30
+      - time: "15:30"
+        duration: 150
         talks:
           - title: "IndicNLP: Natural Language Processing for Indian Languages using Python"
             speaker: Gajendra Deshpande
@@ -45,16 +48,18 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/introduction-to-property-based-testing~elY5r/
 
   -
-    date: 18th Sept
+    date: 18th Sep
     schedule:
-      - time: 12:00
+      - time: "12:00"
+        duration: 30
         talks:
           - title: Day 1 Opening Address
             speaker: ''
             type: extra
             track: all
 
-      - time: 12:30
+      - time: "12:30"
+        duration: 60
         talks:
           - title: Keynote
             speaker: Alolita Sharma
@@ -62,7 +67,8 @@ data:
             link: https://in.pycon.org/blog/2021/keynote-announcement-alolita-sharma.html
             track: all
 
-      - time: 13:30
+      - time: "13:30"
+        duration: 30
         talks:
           - title: Python Versions and Dependencies Made Easy
             speaker: Sebastian
@@ -88,7 +94,8 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/the-file-server~b4xRV/
             track: 4
 
-      - time: 14:00
+      - time: "14:00"
+        duration: 30
         talks:
           - title: ExpEYES - A Python powered measurement device for hands-on science education
             speaker: Jithin B P
@@ -115,12 +122,14 @@ data:
             track: 4
 
 
-      - time: 14:30
+      - time: "14:30"
+        duration: 60
         talks:
           - title: Break/Networking
             type: extra
 
-      - time: 15:30
+      - time: "15:30"
+        duration: 30
         talks:
           - title: Writing Better Documentation for Developers
             speaker: Meredydd Luff
@@ -140,7 +149,8 @@ data:
             link: https://in.pycon.org/blog/2021/cs-education-panel-discussion.html
             track: 3
 
-      - time: 16:00
+      - time: "16:00"
+        duration: 30
         talks:
           - title: A haphazard journey to a generative art twitter bot with matplotlib
             speaker: Gautam Sisodia
@@ -161,7 +171,8 @@ data:
             track: 3
 
 
-      - time: 16:30
+      - time: "16:30"
+        duration: 60
         talks:
           - title: Python in Space - Curiosity Sparks
             speaker: Arthur Scholz, Thomas Albin, Kazunori Akiyama, Andrew Chael
@@ -169,13 +180,15 @@ data:
             link: https://in.pycon.org/blog/2021/python-in-space-panel-discussion.html
             track: all
 
-      - time: 17:30
+      - time: "17:30"
+        duration: 30
         talks:
           - title: Break/Networking
             type: extra
             track: all
 
-      - time: 18:00
+      - time: "18:00"
+        duration: 30
         talks:
           - title: Lightning Talk
             speaker: ''
@@ -183,7 +196,8 @@ data:
             link: ''
             track: all
 
-      - time: 18:30
+      - time: "18:30"
+        duration: 30
         talks:
           - title: "Idiomatic Pandas: 5 Tips for Better Pandas Code"
             speaker: Matt Harrison
@@ -211,7 +225,8 @@ data:
 
 
 
-      - time: 19:00
+      - time: "19:00"
+        duration: 60
         talks:
           - title: Keynote
             speaker: Sebastián Ramírez
@@ -219,7 +234,8 @@ data:
             link: https://in.pycon.org/blog/2021/keynote-announcement-sebastian-ramirez.html
             track: all
 
-      - time: 20:00
+      - time: "20:00"
+        duration: 30
         talks:
           - title: Day 1 Closing Address
             speaker: ''
@@ -227,16 +243,18 @@ data:
             track: all
 
   -
-    date: 19th Sept
+    date: 19th Sep
     schedule:
-      - time: 12:00
+      - time: "12:00"
+        duration: 30
         talks:
           - title: Day 2 Opening Address
             speaker: ''
             type: extra
             track: all
 
-      - time: 12:30
+      - time: "12:30"
+        duration: 60
         talks:
           - title: Keynote
             speaker: Dr. Ajith Kumar B P
@@ -244,7 +262,8 @@ data:
             link: https://in.pycon.org/blog/2021/keynote-announcement-ajith-kumar.html
             track: all
 
-      - time: 13:30
+      - time: "13:30"
+        duration: 30
         talks:
           - title: A walk through caching patterns
             speaker: Nicolas Frankel
@@ -271,7 +290,8 @@ data:
             track: 4
 
 
-      - time: 14:00
+      - time: "14:00"
+        duration: 30
         talks:
           - title: Demystifying Async & Await keywords in Python and JavaScript
             speaker: Kurian Benoy
@@ -299,12 +319,14 @@ data:
 
 
 
-      - time: 14:30
+      - time: "14:30"
+        duration: 60
         talks:
           - title: Break/Networking
             type: extra
 
-      - time: 15:30
+      - time: "15:30"
+        duration: 30
         talks:
           - title:  Exploring Network Clusters in Python
             speaker: Anand S
@@ -325,7 +347,8 @@ data:
             track: 3
 
 
-      - time: 16:00
+      - time: "16:00"
+        duration: 30
         talks:
           - title: "Django and multi-tenancy: The isolated database approach"
             speaker: N Aditya
@@ -352,7 +375,8 @@ data:
             track: 4
 
 
-      - time: 16:30
+      - time: "16:30"
+        duration: 30
         talks:
           - title: Diversity in Cybersecurity
             speaker: Vandana Verma, Shira Shamban, Hitesh Dharmdasani, Judy Ngure
@@ -360,13 +384,15 @@ data:
             link: https://in.pycon.org/blog/2021/diversity-in-cybersecurity-panel-discussion.html
             track: all
 
-      - time: 17:30
+      - time: "17:30"
+        duration: 30
         talks:
           - title: Break/Networking
             type: extra
             track: all
 
-      - time: 18:00
+      - time: "18:00"
+        duration: 30
         talks:
           - title: Lightning Talk
             speaker: ''
@@ -374,7 +400,8 @@ data:
             link: ''
             track: all
 
-      - time: 18:30
+      - time: "18:30"
+        duration: 30
         talks:
           - title: How To Log ML Experiments
             speaker: Shagun Sodhani
@@ -401,7 +428,8 @@ data:
             track: 4
 
 
-      - time: 19:00
+      - time: "19:00"
+        duration: 60
         talks:
           - title: Keynote
             speaker: Luciano Ramalho
@@ -409,7 +437,8 @@ data:
             link: https://in.pycon.org/blog/2021/keynote-announcement-luciano-ramalho.html
             track: all
 
-      - time: 20:00
+      - time: "20:00"
+        duration: 30
         talks:
           - title: Day 2 Closing Address
             speaker: ''
