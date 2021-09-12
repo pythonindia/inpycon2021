@@ -2,15 +2,30 @@
 
 BUILD_OUTPUT?=public
 BASEURL?="https://in.pycon.org/2021/"
+DEV_BASEURL?="http://localhost/2021/"
 
 install:
 	@echo "Please install Hugo using the steps from https://gohugo.io/getting-started/installing/"
 
 dev: install
-	hugo serve
+	hugo serve -b ${DEV_BASEURL}
 
 build: install
 	hugo -b ${BASEURL} -d ${BUILD_OUTPUT}
 
 clean:
 	rm -r ${BUILD_OUTPUT}
+
+GIT_ROOT=$(shell git rev-parse --show-toplevel)
+CALENDAR_PATH?=$(GIT_ROOT)/schedule.ics
+
+calendar-requirements:
+	pip install -r requirements.txt
+
+generate-calendar: calendar-requirements $(CALENDAR_PATH)
+
+$(CALENDAR_PATH):
+	python $(GIT_ROOT)/scripts/generate_calendar.py --schedule $(GIT_ROOT)/data/schedule.yml --skip-empty > $@
+
+clean-calendar: $(CALENDAR_PATH)
+	rm -rf $^
