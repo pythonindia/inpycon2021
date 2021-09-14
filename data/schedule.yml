@@ -109,10 +109,10 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/writing-your-own-kubernetes-operator-and-crd-in-python-with-kopf-to-enhance-and-harden-your-kubernetes-clusters~azpvm/
             track: 2
 
-          - title: Type Check your Django app
-            speaker: Kracekumar Ramaraju
+          - title: Mon School - The Joy of Programming
+            speaker: Anand Chitipothu
             type: talk
-            link: https://in.pycon.org/cfp/2021/proposals/type-check-your-django-app~ejRql/
+            link: https://in.pycon.org/cfp/2021/proposals/mon-school-the-joy-of-programming~e0R8K/
             track: 3
 
           - title: "Tensorflow For the Web : Converting Python Machine Learning Models to Javascript using TFJS Converter"
@@ -137,10 +137,10 @@ data:
             link: https://in.pycon.org/cfp/2021/proposals/writing-better-documentation-for-developers~epY8N/
             track: 1
 
-          - title: Mon School - The Joy of Programming
-            speaker: Anand Chitipothu
+          - title: Type Check your Django app
+            speaker: Kracekumar Ramaraju
             type: talk
-            link: https://in.pycon.org/cfp/2021/proposals/mon-school-the-joy-of-programming~e0R8K/
+            link: https://in.pycon.org/cfp/2021/proposals/type-check-your-django-app~ejRql/
             track: 2
 
           - title: CS Education - Panel
