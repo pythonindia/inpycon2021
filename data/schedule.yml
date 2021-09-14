@@ -175,7 +175,7 @@ data:
         duration: 60
         talks:
           - title: Python in Space - Curiosity Sparks
-            speaker: Arthur Scholz, Thomas Albin, Kazunori Akiyama, Andrew Chael
+            speaker: Katherine Scott, Arthur Scholz, Thomas Albin, Kazunori Akiyama, Andrew Chael
             type: panel
             link: https://in.pycon.org/blog/2021/python-in-space-panel-discussion.html
             track: all
