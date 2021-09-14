@@ -1,5 +1,5 @@
 live: true
-extend: 'Find the schedule for Neurodiversity and experience sharing happening at
+extend: 'Find the schedule for Neurodiversity and experience sharing sessions happening at
         <a class="text-decoration-none fw-bold  yellow-text white-hovertext" href="https://in.pycon.org/blog/2021/neurodiversity-and-experience-sharing.html">Stage 5.</a>'
 data:
   -
