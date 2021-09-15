@@ -31,11 +31,6 @@ data:
     link: https://www.packtpub.com/
     type: in-kind
     background: none
-  - name: Innovaccer
-    image: images/innovaccer.svg
-    link: https://innovaccer.com/
-    type: in-kind
-    background: white
   - name: Viprush Technologies
     image: images/viprush.png
     link: https://viprushtech.in/
