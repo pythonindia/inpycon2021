@@ -10,7 +10,7 @@
       fetch(url)
         .then((response) => response.json())
         .then((data) => {
-          console.log("Success:", data);
+          console.log("Success:");
           if (data.length) {
             window.populateJobCards(data);
             window.toggleView();
