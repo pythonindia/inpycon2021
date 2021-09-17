@@ -1,0 +1,148 @@
+{{ define "main"}}
+
+<!-- scripts include -->
+<script type="text/javascript">
+  window.onload = function () {
+    try {
+      var url =
+        "https://sheet2api.com/v1/DJkh6jAiR1WP/job-application-pycon-india-2021-responses";
+
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+          console.log("Success:");
+          if (data.length) {
+            window.populateJobCards(data);
+            window.toggleView();
+          } else {
+            let errorMessage =
+              "No Job postings currently, Please check again later.";
+            toggleError(errorMessage);
+          }
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+          let errorMessage =
+            "Oops!, something went wrong while fetching the jobs.";
+          toggleError(errorMessage);
+        });
+    } catch (e) {
+      console.error(e);
+    }
+  };
+  function populateJobCards(jobData) {
+    let getJobCard = (job) => `
+            <!-- job card start -->
+            <div class="col-lg-4 col-12 ps-0 d-flex mb-lg-0 mb-4 mt-4">
+              <div class="jobcard timeline-box shadow">
+                <li class="d-flex flex-column">
+                    <h3 class="text-white">${job["Job Title"]}</h3>
+                </li>
+
+                <li class="d-flex flex-column">
+                  <a href="${job["Company Website"]}" class="talk-link">
+                    <h5 class="text-white">${job["Company Name"]}</h5>
+                  </a>
+                </li>
+                <li class="d-flex flex-column">
+                  <p class="yellow-text">
+                    <span>${job["Job Type"]}</span>
+                    &bullet;
+                    <span>${job["Job Location"]}</span>
+                  </p>
+                </li>
+                <p class="text-white jobCard__description" style="text-align:left;">
+                    ${job["Company Description"]}
+                </p>
+
+                <div class="jobcard__links">
+                  <a
+                    href="${job["Job Application Link"]}"
+                    target="_blank"
+                    class="
+                      yellow-text
+                      white-hovertext
+                      text-decoration-none
+                      fw-bold
+                    "
+                    >Apply &nbsp;<i class="fas fa-arrow-circle-right"></i
+                  ></a>
+                  &nbsp; &nbsp; &nbsp;
+                  <a
+                    href="mailto: ${job["Email Address"]}"
+                    class="
+                      yellow-text
+                      white-hovertext
+                      text-decoration-none
+                      fw-bold
+                    "
+                    >Email &nbsp;<i class="fas fa-envelope"></i
+                  ></a>
+                </div>
+
+              </div>
+            </div>
+            <!-- job card ends -->
+      `;
+    let htmlString = "";
+    for (let job of jobData) {
+      if (job["isApproved"] == "TRUE") {
+        htmlString += getJobCard(job);
+      }
+    }
+    document.querySelector(
+      ".job-cards-container .job-cards-container-row"
+    ).innerHTML = htmlString;
+  }
+  function toggleView() {
+    document.querySelector(".job-cards-container").removeAttribute("hidden");
+    document
+      .querySelector(".job-cards-placeholder")
+      .setAttribute("hidden", "true");
+  }
+  function toggleError(errorMessage) {
+    document.querySelector(".job-loading-error").innerHTML = errorMessage;
+    document.querySelector(".job-loading-error").removeAttribute("hidden");
+    document.querySelector(".job-loading").setAttribute("hidden", true);
+  }
+</script>
+
+<!-- schedule section started -->
+<section class="schedule-section pb-5 pb-md-0" id="schedule">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center pt-md-5">
+        <h1
+          class="schedule-head text-white fw-bold pt-5"
+          data-aos="fade-left"
+          data-aos-duration="5000"
+        >
+          Jobs
+        </h1>
+        <!-- job card placeholder -->
+        <div
+          class="content pt-5 job-cards-placeholder"
+          data-aos="zoom-in"
+          data-aos-once="false"
+        >
+          <h4 class="yellow-text">
+            <span data-aos="zoom-in" class="job-loading">
+              Loading jobs...
+            </span>
+            <span data-aos="zoom-in" class="job-loading-error" hidden></span>
+          </h4>
+        </div>
+        <!-- job card placeholder ends -->
+
+        <!-- job card container starts -->
+        <div class="content pt-5 job-cards-container" hidden>
+          <!-- rows will come here -->
+          <div class="row job-cards-container-row"></div>
+        </div>
+        <!-- job card container ends -->
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

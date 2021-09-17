@@ -5,6 +5,8 @@ links:
     link: about/
   - name: Schedule
     link: schedule/
+  - name: Jobs
+    link: jobs/
   - name: CoC
     link: coc/
   - name: FAQ
