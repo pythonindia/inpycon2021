@@ -4,17 +4,27 @@
 <script type="text/javascript">
   window.onload = function () {
     try {
-      var url = "https://sheet2api.com/v1/DJkh6jAiR1WP/test-dummy/Sheet1";
+      var url =
+        "https://sheet2api.com/v1/DJkh6jAiR1WP/job-application-pycon-india-2021-responses";
 
       fetch(url)
         .then((response) => response.json())
         .then((data) => {
-          console.log("Success:");
-          window.populateJobCards(data);
-          window.toggleView();
+          console.log("Success:", data);
+          if (data.length) {
+            window.populateJobCards(data);
+            window.toggleView();
+          } else {
+            let errorMessage =
+              "No Job postings currently, Please check again later.";
+            toggleError(errorMessage);
+          }
         })
         .catch((error) => {
           console.error("Error:", error);
+          let errorMessage =
+            "Oops!, something went wrong while fetching the jobs.";
+          toggleError(errorMessage);
         });
     } catch (e) {
       console.error(e);
@@ -80,13 +90,20 @@
         htmlString += getJobCard(job);
       }
     }
-    document.querySelector(".job-cards-container .job-cards-container-row").innerHTML = htmlString;
+    document.querySelector(
+      ".job-cards-container .job-cards-container-row"
+    ).innerHTML = htmlString;
   }
   function toggleView() {
     document.querySelector(".job-cards-container").removeAttribute("hidden");
     document
       .querySelector(".job-cards-placeholder")
       .setAttribute("hidden", "true");
+  }
+  function toggleError(errorMessage) {
+    document.querySelector(".job-loading-error").innerHTML = errorMessage;
+    document.querySelector(".job-loading-error").removeAttribute("hidden");
+    document.querySelector(".job-loading").setAttribute("hidden", true);
   }
 </script>
 
@@ -112,9 +129,7 @@
             <span data-aos="zoom-in" class="job-loading">
               Loading jobs...
             </span>
-            <span data-aos="zoom-in" class="job-loading-error" hidden>
-              Oops!, something went wrong while fetching the jobs.
-            </span>
+            <span data-aos="zoom-in" class="job-loading-error" hidden></span>
           </h4>
         </div>
         <!-- job card placeholder ends -->
