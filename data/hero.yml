@@ -1,7 +1,7 @@
 hero_text: "The largest gathering of Pythonistas in India for the Python
             programming language."
 primary_button:
-  text: Checkout PPG
+  text: Checkout Program Guide
   link: "https://in.pycon.org/share/PyConIndia2021ProgramGuide.pdf"
 about_title: About PyCon India
 about_text: "PyCon India is the largest gathering of Pythonistas in
