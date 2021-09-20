@@ -1,0 +1,59 @@
+---
+title: Team
+layout: page
+---
+
+# PyCon India 2021 Team
+
+- Abhishek Mishra
+- Vishal
+- Girish
+- Shashank Kumar
+- Yashwanth Ravula
+- Duranjai Malik
+- Rohan Samanta
+- Tiyasha Banerjee
+- Bhavin Gandhi
+- Kalyan Prasad
+- Sandeep Choudhary
+- Garvit Kulshreshtha
+- Vaibhav Mishra
+- Rahul B
+- Anirudh Menon
+- Abhishek Upperwal
+- Nikhil Maan
+- Vipul Gupta
+- Jatin
+- Darshna Das
+- Vishal
+- Gajendra
+- Girish
+- Arun
+- Rahul Kumaresan
+- Akshay Gaikwad
+- Farhaan B
+- Kumar Anirudha
+- Nabarun Pal
+- Rayan Das
+- Ritesh
+- Sanchit
+- Sayan
+- Subho
+- Saptak
+- Sukanya
+- Suchita Pallavi
+- Aravind Sekar
+- Chandan Kumar
+- Shivang Dubey
+- Megha
+- Hari priya
+- Divya
+- Minal
+- Bharat
+- Laisha
+- Minal
+- Priyanshu Kumar
+- Harsh Mittal
+- Vishal VVR
+- Pradhvan Bisht
+- Pravin Patil
