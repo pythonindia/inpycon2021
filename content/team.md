@@ -17,12 +17,12 @@ The conference wouldn't have concluded on a high note much less even started pla
 - Bhavin Gandhi
 - Chandan Kumar
 - Darshna Das
-- Divya
+- Divya Goswami
 - Duranjai Malik
-- Farhaan B
-- Gajendra
+- Farhaan Bukhsh
+- Gajendra Deshpande
 - Garvit Kulshreshtha
-- Girish
+- Girish Joshi
 - Hari priya
 - Harsh Mittal
 - Jatin Goel
@@ -30,21 +30,21 @@ The conference wouldn't have concluded on a high note much less even started pla
 - Kumar Anirudha
 - Laisha Wadhwa
 - Megha
-- Minal
+- Minal Patil
 - Nabarun Pal
 - Nikhil Maan
 - Pradhvan Bisht
-- Pravin Patil
+- Praveen Patil
 - Priyanshu Kumar
 - Rahul B
 - Rahul Kumaresan
 - Rayan Das
-- Ritesh
+- Ritesh Agrawal
 - Rohan Samanta
-- Sanchit
+- Sanchit Balchandani
 - Sandeep Choudhary
-- Saptak
-- Sayan
+- Saptak S
+- Sayan Chowdhury
 - Shashank Kumar
 - Shivang Dubey
 - Subho
@@ -54,10 +54,10 @@ The conference wouldn't have concluded on a high note much less even started pla
 - Vaibhav Mishra
 - Vipul Gupta
 - Vishal
-- Vishal VVR
+- Vishal Vijayraghavan
 - Yashwanth Ravula
 
-This year, we had Chandan Kumar as the chair of the conference with Sayan Choudhary as the emertius chair. We also had 2 co-chairs, Kumar Aniruddha and Ritesh ?. If you too are interested in volunteering for next iteration of PyCon India, then [subscribe to the mailing list](https://mail.python.org/mailman/listinfo/inpycon) and wait for the call for volunteers for 2022 to start. 
+This year, we had Chandan Kumar as the chair of the conference with Sayan Chowdhury as the emertius chair. We also had 2 co-chairs, Kumar Anirudha and Ritesh Agrawal. If you too are interested in volunteering for next iteration of PyCon India, then [subscribe to the mailing list](https://mail.python.org/mailman/listinfo/inpycon) and wait for the call for volunteers for 2022 to start. 
 
 <img src="Aarvind will send photo  ">
 It would be good to have surname of folks too. 
