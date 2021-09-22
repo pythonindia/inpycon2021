@@ -31,6 +31,7 @@ The conference wouldn't have concluded on a high note much less even started pla
 - Kalyan Prasad
 - Kumar Anirudha
 - Laisha Wadhwa
+- Manaswini Das
 - Megha
 - Minal Patil
 - Nabarun Pal
@@ -55,7 +56,6 @@ The conference wouldn't have concluded on a high note much less even started pla
 - Tiyasha Banerjee
 - Vaibhav Mishra
 - Vipul Gupta
-- Vishal
 - Vishal Vijayraghavan
 - Yashwanth Ravula
 
