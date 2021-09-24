@@ -38,7 +38,7 @@ The conference wouldn't have concluded on a high note much less even started pla
 - Nikhil Maan
 - Pradhvan Bisht
 - Praveen Patil
-- Priyanshu Kumar
+- Priyanshu Krishnan
 - Rahul B
 - Rahul Kumaresan
 - Rayan Das
