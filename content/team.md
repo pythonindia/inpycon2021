@@ -46,7 +46,7 @@ The conference wouldn't have concluded on a high note much less even started pla
 - Rohan Samanta
 - Sanchit Balchandani
 - Sandeep Choudhary
-- Saptak S
+- Saptak Sengupta
 - Sayan Chowdhury
 - Shashank Kumar
 - Shivang Dubey
