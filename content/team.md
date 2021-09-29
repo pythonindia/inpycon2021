@@ -46,11 +46,11 @@ The conference wouldn't have concluded on a high note much less even started pla
 - Rohan Samanta
 - Sanchit Balchandani
 - Sandeep Choudhary
-- Saptak Sengupta
+- Saptak S
 - Sayan Chowdhury
 - Shashank Kumar
 - Shivang Dubey
-- Subho
+- Subhendu Ghosh
 - Suchita Pallavi
 - Sukanya Mandal
 - Tiyasha Banerjee
