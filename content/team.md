@@ -25,7 +25,7 @@ The conference wouldn't have concluded on a high note much less even started pla
 - Gajendra Deshpande
 - Garvit Kulshreshtha
 - Girish Joshi
-- Hari priya
+- Haripriya
 - Harsh Mittal
 - Jatin Goel
 - Kalyan Prasad
