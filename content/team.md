@@ -53,6 +53,7 @@ The conference wouldn't have concluded on a high note much less even started pla
 - Subhendu Ghosh
 - Suchita Pallavi
 - Sukanya Mandal
+- Supratim
 - Tiyasha Banerjee
 - Vaibhav Mishra
 - Vipul Gupta
